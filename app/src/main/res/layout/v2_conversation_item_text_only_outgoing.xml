@@ -2,7 +2,6 @@
   ~ Copyright 2023 Signal Messenger, LLC
   ~ SPDX-License-Identifier: AGPL-3.0-only
   -->
-<org.tm.archive.conversation.v2.items.V2ConversationItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -45,7 +44,6 @@
         app:layout_goneMarginEnd="16dp"
         tools:background="@color/black">
 
-        <org.tm.archive.components.emoji.EmojiTextView
             android:id="@+id/conversation_item_body"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -67,7 +65,6 @@
 
     </FrameLayout>
 
-    <org.tm.archive.components.AlertView
         android:id="@+id/conversation_item_alert"
         android:layout_width="32dp"
         android:layout_height="32dp"
@@ -122,7 +119,6 @@
         app:layout_constraintEnd_toStartOf="@id/conversation_item_expiration_timer"
         tools:text="13:14pm" />
 
-    <org.tm.archive.components.ExpirationTimerView
         android:id="@+id/conversation_item_expiration_timer"
         android:layout_width="12dp"
         android:layout_height="0dp"
@@ -132,7 +128,6 @@
         app:layout_constraintEnd_toStartOf="@id/conversation_item_delivery_status"
         app:layout_constraintTop_toTopOf="@id/conversation_item_footer_date" />
 
-    <org.tm.archive.components.DeliveryStatusView
         android:id="@+id/conversation_item_delivery_status"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
@@ -153,7 +148,6 @@
 
     <!-- Replies Icon -->
     <!-- Reactions -->
-    <org.tm.archive.reactions.ReactionsConversationView
         android:id="@+id/conversation_item_reactions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -164,4 +158,3 @@
         app:layout_constraintTop_toBottomOf="@id/conversation_item_body_wrapper"
         app:rcv_outgoing="true" />
 
-</org.tm.archive.conversation.v2.items.V2ConversationItemLayout>

@@ -9,7 +9,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <org.tm.archive.components.webrtc.CallReactionScrubber
         android:id="@+id/reaction_scrubber"
         android:layout_width="match_parent"
         android:layout_height="@dimen/calling_reaction_emoji_height"

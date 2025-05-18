@@ -122,7 +122,6 @@
     <!-- Title of fragment -->
     <string name="CreditCardFragment__credit_or_debit_card">Carta di credito o di debito</string>
     <!-- Explanation of how to fill in the form and a note about pii, displayed above the credit card text fields -->
-    <string name="CreditCardFragment__enter_your_card_details">Inserisci i dettagli della tua carta. Signal non archivia né salva le tue informazioni personali.</string>
     <!-- Displayed as a hint in the card number text field -->
     <string name="CreditCardFragment__card_number">Numero della carta</string>
     <!-- Displayed as a hint in the card expiry text field -->
@@ -588,9 +587,6 @@
         <item quantity="one">Eliminazione della chat selezionata in corso…</item>
         <item quantity="other">Eliminazione delle chat selezionate in corso…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
-        <item quantity="one">Chat archiviata</item>
-        <item quantity="other">%1$d chat archiviate</item>
     </plurals>
     <string name="ConversationListFragment_undo">Annulla</string>
     <plurals name="ConversationListFragment_moved_conversations_to_inbox">
@@ -610,8 +606,6 @@
     <string name="ConversationListFragment_mute">Silenzia</string>
     <string name="ConversationListFragment_unmute">Non silenziare</string>
     <string name="ConversationListFragment_select">Seleziona</string>
-    <string name="ConversationListFragment_archive">Archivia</string>
-    <string name="ConversationListFragment_unarchive">Non archiviare</string>
     <string name="ConversationListFragment_delete">Elimina</string>
     <string name="ConversationListFragment_select_all">Scegli tutto</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +626,6 @@
     <string name="ConversationListItem_key_exchange_message">Messaggio per lo scambio della chiave</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Chat archiviate (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Verificato</string>
@@ -697,7 +690,6 @@
 
     <!-- BackupsPreferenceFragment -->
     <string name="BackupsPreferenceFragment__chat_backups">Backup delle chat</string>
-    <string name="BackupsPreferenceFragment__backups_are_encrypted_with_a_passphrase">I backup vengono crittografati con una passphrase e archiviati sul tuo dispositivo.</string>
     <string name="BackupsPreferenceFragment__create_backup">Crea backup</string>
     <string name="BackupsPreferenceFragment__last_backup">Ultimo backup: %1$s</string>
     <string name="BackupsPreferenceFragment__backup_folder">Cartella dei backup</string>
@@ -2999,7 +2991,6 @@
     <string name="AndroidManifest__message_details">Dettagli messaggio</string>
     <string name="AndroidManifest__linked_devices">Dispositivi collegati</string>
     <string name="AndroidManifest__invite_friends">Invita amici</string>
-    <string name="AndroidManifest_archived_conversations">Chat archiviate</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Hai già letto le nostre FAQ?</string>
@@ -3100,10 +3091,6 @@
     <string name="preferences__sms_mms">SMS ed MMS</string>
     <string name="preferences__pref_use_address_book_photos">Usa le foto della rubrica</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Mostra le foto dei contatti dalla tua rubrica se disponibili</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Mantieni le chat silenziate nell\'archivio</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Le chat silenziate che archivi rimangono archiviate anche quando arriva un nuovo messaggio.</string>
     <string name="preferences__generate_link_previews">Genera anteprime dei link</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Recupera le anteprime dei link direttamente dai siti web per i messaggi che invii.</string>
     <string name="preferences__change_passphrase">Cambia password</string>
@@ -3403,7 +3390,6 @@
     <!-- Phone calls permission row description -->
     <string name="GrantPermissionsFragment__make_registering_easier">Semplifica il processo d\'iscrizione a Signal e concedi i permessi per le funzioni di chiamata.</string>
     <!-- Storage permission row title -->
-    <string name="GrantPermissionsFragment__storage">Spazio di archiviazione</string>
     <!-- Storage permission row description -->
     <string name="GrantPermissionsFragment__send_photos_videos_and_files">Invia foto, video e file dal tuo dispositivo.</string>
 
@@ -3610,7 +3596,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Foto del contatto</string>
-    <string name="conversation_list_item_view__archived">Archiviate</string>
 
 
     <!-- conversation_list_fragment -->
@@ -3927,7 +3912,6 @@
     <string name="preferences_app_protection__turn_off">Disattiva</string>
     <string name="preferences_app_protection__confirm_pin">Conferma PIN</string>
     <string name="preferences_app_protection__confirm_your_signal_pin">Conferma il tuo PIN di Signal</string>
-    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Assicurati di memorizzare o archiviare in modo sicuro il tuo PIN in quanto non può essere recuperato. Se dimentichi il tuo PIN, potresti perdere dati durante la nuova registrazione del tuo account Signal.</string>
     <string name="preferences_app_protection__incorrect_pin_try_again">PIN errato. Riprova.</string>
     <string name="preferences_app_protection__failed_to_enable_registration_lock">Impossibile abilitare il blocco registrazione.</string>
     <string name="preferences_app_protection__failed_to_disable_registration_lock">Impossibile disabilitare il blocco registrazione.</string>
@@ -4374,7 +4358,6 @@
     <string name="PaymentsRecoveryPhraseFragment__invalid_recovery_phrase">Frase di recupero non valida</string>
     <string name="PaymentsRecoveryPhraseFragment__make_sure_youve_entered_your_phrase_correctly_and_try_again">Assicurati di aver inserito correttamente la tua frase e riprova.</string>
     <string name="PaymentsRecoveryPhraseFragment__copy_to_clipboard">Copiare negli appunti?</string>
-    <string name="PaymentsRecoveryPhraseFragment__if_you_choose_to_store">Se scegli di memorizzare la frase di recupero in formato digitale, assicurati che sia archiviata in modo sicuro in un luogo di cui ti fidi.</string>
     <string name="PaymentsRecoveryPhraseFragment__copy">Copia</string>
 
     <!-- PaymentsRecoveryPhraseConfirmFragment -->
@@ -4476,7 +4459,6 @@
     <!-- Shown in a dialog with a spinner while the report is downloading -->
     <string name="ExportAccountDataFragment__download_progress">Generazione del report in corso…</string>
     <!-- Explanation that the report is only generated on export and is not saved on the device -->
-    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">Il tuo report viene creato solamente quando avviene l\'esportazione dei dati e Signal non archivierà tale report sul tuo dispositivo.</string>
 
     <!-- ChangeNumberFragment -->
     <string name="ChangeNumberFragment__use_this_to_change_your_current_phone_number_to_a_new_phone_number">Usa questo per cambiare il tuo numero di telefono attuale con un nuovo numero di telefono. Non puoi annullare questo cambiamento.\n\nPrima di continuare, assicurati che il tuo nuovo numero possa ricevere SMS o chiamate.</string>
@@ -6211,8 +6193,6 @@
 
     <!-- YourInformationIsPrivateBottomSheet -->
     <string name="YourInformationIsPrivateBottomSheet__your_information_is_private">Le tue informazioni rimango sempre private</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">Signal non archivia né salva le tue informazioni personali quando fai una donazione.</string>
-    <string name="YourInformationIsPrivateBottomSheet__we_use_stripe">Usiamo Stripe per elaborare i pagamenti e ricevere le tue donazioni. Non abbiamo accesso, né archiviamo o salviamo le informazioni che fornisci a Stripe per le transazioni.</string>
     <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">Signal non collegherà mai (né è in grado di farlo) le informazioni legate alla donazione al tuo account su Signal.</string>
     <string name="YourInformationIsPrivateBottomSheet__thank_you">Grazie per il tuo supporto!</string>
 
@@ -6681,7 +6661,6 @@
     <!-- Title displayed at the top of the screen -->
     <string name="NicknameActivity__nickname">Soprannome</string>
     <!-- Subtitle displayed under title -->
-    <string name="NicknameActivity__nicknames_amp_notes">I soprannomi e gli appunti vengono salvati usando il sistema di archiviazione crittografato end-to-end di Signal. Solo tu puoi vedere queste informazioni.</string>
     <!-- Field label for given name -->
     <string name="NicknameActivity__first_name">Nome</string>
     <!-- Content description for first name clear button -->

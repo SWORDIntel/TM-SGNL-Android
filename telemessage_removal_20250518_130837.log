@@ -1,0 +1,830 @@
+TeleMessage Component Removal Log - 20250518_130837
+[2025-05-18 13:08:37] [INFO] Starting TeleMessage component removal process...
+[2025-05-18 13:08:37] [STEP] Creating backup of TeleMessage components...
+[2025-05-18 13:08:37] [INFO] Backing up AAR files from app/libs/
+[2025-05-18 13:08:37] [INFO] Backing up TeleMessage-related source code
+[2025-05-18 13:08:37] [INFO] Backing up build files
+[2025-05-18 13:08:37] [INFO] Backup completed at /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837
+[2025-05-18 13:08:37] [STEP] Removing TeleMessage AAR files...
+[2025-05-18 13:08:37] [INFO] Found AAR file: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal-debug.aar
+[2025-05-18 13:08:37] [INFO] Found AAR file: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal-release.aar
+[2025-05-18 13:08:37] [INFO] Found AAR file: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal-debug.aar
+[2025-05-18 13:08:37] [INFO] Found AAR file: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal-release.aar
+[2025-05-18 13:08:37] [INFO] Found AAR file: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/common-debug.aar
+[2025-05-18 13:08:37] [INFO] Found AAR file: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/common-release.aar
+[2025-05-18 13:08:37] [INFO] Removed AAR file: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal-debug.aar
+[2025-05-18 13:08:37] [INFO] Removed AAR file: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal-release.aar
+[2025-05-18 13:08:37] [INFO] Removed AAR file: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal-debug.aar
+[2025-05-18 13:08:37] [INFO] Removed AAR file: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal-release.aar
+[2025-05-18 13:08:37] [INFO] Removed AAR file: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/common-debug.aar
+[2025-05-18 13:08:37] [INFO] Removed AAR file: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/common-release.aar
+[2025-05-18 13:08:37] [INFO] Removed 6 TeleMessage AAR files out of 6 found
+[2025-05-18 13:08:37] [STEP] Updating build files to remove TeleMessage dependencies...
+[2025-05-18 13:08:37] [INFO] Checking build file: /home/john/Documents/GitHub/TM-SGNL-Android/app/build.gradle.kts
+[2025-05-18 13:08:37] [INFO] Removed TeleMessage dependencies from /home/john/Documents/GitHub/TM-SGNL-Android/app/build.gradle.kts
+[2025-05-18 13:08:37] [INFO] Checking build file: /home/john/Documents/GitHub/TM-SGNL-Android/build.gradle.kts
+[2025-05-18 13:08:37] [INFO] No TeleMessage dependencies found in /home/john/Documents/GitHub/TM-SGNL-Android/build.gradle.kts
+[2025-05-18 13:08:37] [INFO] Checking build file: /home/john/Documents/GitHub/TM-SGNL-Android/settings.gradle.kts
+[2025-05-18 13:08:37] [INFO] No TeleMessage dependencies found in /home/john/Documents/GitHub/TM-SGNL-Android/settings.gradle.kts
+[2025-05-18 13:08:37] [STEP] Removing TeleMessage source code...
+[2025-05-18 13:08:37] [INFO] Removed archiver directory
+[2025-05-18 13:08:37] [INFO] Searching for TeleMessage-related source files...
+[2025-05-18 13:08:37] [INFO] Found TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/java/org/tm/archive/components/settings/app/AppSettingsFragment.kt
+[2025-05-18 13:08:37] [INFO] Removed file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/java/org/tm/archive/components/settings/app/AppSettingsFragment.kt
+[2025-05-18 13:08:37] [INFO] Found TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/java/org/tm/archive/database/SignalDatabase.kt
+[2025-05-18 13:08:37] [INFO] Removed file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/java/org/tm/archive/database/SignalDatabase.kt
+[2025-05-18 13:08:37] [INFO] Found TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/java/org/tm/archive/keyvalue/MiscellaneousValues.kt
+[2025-05-18 13:08:37] [INFO] Removed file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/java/org/tm/archive/keyvalue/MiscellaneousValues.kt
+[2025-05-18 13:08:37] [INFO] Found TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/java/org/tm/archive/keyvalue/SignalStore.java
+[2025-05-18 13:08:37] [INFO] Removed TeleMessage references from: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/java/org/tm/archive/keyvalue/SignalStore.java
+[2025-05-18 13:08:37] [INFO] Found TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/java/org/tm/archive/preferences/EditProxyFragment.java
+[2025-05-18 13:08:37] [INFO] Removed TeleMessage references from: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/java/org/tm/archive/preferences/EditProxyFragment.java
+[2025-05-18 13:08:37] [INFO] Found TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/java/org/tm/archive/registration/fragments/WelcomeFragment.java
+[2025-05-18 13:08:37] [INFO] Removed TeleMessage references from: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/java/org/tm/archive/registration/fragments/WelcomeFragment.java
+[2025-05-18 13:08:37] [INFO] Found TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/java/org/selfAuthentication/SelfAuthenticationDialogBuilder.kt
+[2025-05-18 13:08:37] [INFO] Removed file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/java/org/selfAuthentication/SelfAuthenticationDialogBuilder.kt
+[2025-05-18 13:08:37] [INFO] Found TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/java/org/selfAuthentication/SelfAuthenticatorManager.kt
+[2025-05-18 13:08:37] [INFO] Removed TeleMessage references from: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/java/org/selfAuthentication/SelfAuthenticatorManager.kt
+[2025-05-18 13:08:37] [INFO] Found TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/java/org/tm/archive/TeleMessageSignalApplication.kt
+[2025-05-18 13:08:37] [INFO] Removed file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/java/org/tm/archive/TeleMessageSignalApplication.kt
+[2025-05-18 13:08:37] [INFO] Found TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/java/org/tm/archive/conversationlist/ConversationListFragment.kt
+[2025-05-18 13:08:37] [INFO] Removed file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/java/org/tm/archive/conversationlist/ConversationListFragment.kt
+[2025-05-18 13:08:37] [INFO] Found TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/java/org/tm/archive/keyvalue/TeleMessageMiscellaneousValues.kt
+[2025-05-18 13:08:37] [INFO] Removed TeleMessage references from: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/java/org/tm/archive/keyvalue/TeleMessageMiscellaneousValues.kt
+[2025-05-18 13:08:37] [INFO] Found TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/java/org/tm/archive/registration/fragments/TMEnterPhoneNumberFragment.kt
+[2025-05-18 13:08:37] [INFO] Removed file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/java/org/tm/archive/registration/fragments/TMEnterPhoneNumberFragment.kt
+[2025-05-18 13:08:37] [STEP] Removing TeleMessage configuration files and constants...
+[2025-05-18 13:08:37] [INFO] Removed ArchiveConstants.kt: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/ArchiveConstants.kt
+[2025-05-18 13:08:37] [STEP] Cleaning UI/UX references to TeleMessage...
+[2025-05-18 13:08:37] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/instrumentation/res/values/strings.xml
+[2025-05-18 13:08:37] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-af/strings.xml
+[2025-05-18 13:08:37] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-ar/strings.xml
+[2025-05-18 13:08:37] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-az/strings.xml
+[2025-05-18 13:08:37] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-bg/strings.xml
+[2025-05-18 13:08:37] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-bn/strings.xml
+[2025-05-18 13:08:37] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-bs/strings.xml
+[2025-05-18 13:08:37] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-ca/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-cs/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-da/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-de/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-el/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-es/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-et/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-eu/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-fa/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-fi/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-fr/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-ga/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-gl/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-gu/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-hi/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-hr/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-hu/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-in/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-it/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-iw/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-ja/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-ka/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-kk/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-km/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-kn/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-ko/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-ky/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-lt/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-lv/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-mk/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-ml/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-mr/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-ms/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-my/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-nb/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-nl/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-pa/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-pl/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-pt-rBR/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-pt/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-ro/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-ru/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-sk/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-sl/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-sq/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-sr/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-sv/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-sw/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-ta/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-te/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-th/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-tl/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-tr/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-ug/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-uk/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-ur/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-vi/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-yue/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-zh-rCN/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-zh-rHK/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values-zh-rTW/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/values/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/nightlyStaging/res/values/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/staging/res/values/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/res/values-es/strings.xml
+[2025-05-18 13:08:38] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/res/values-iw/strings.xml
+[2025-05-18 13:08:39] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/res/values-ja/strings.xml
+[2025-05-18 13:08:39] [INFO] Cleaned strings file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/res/values/strings.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/activity_contact_name_edit.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/activity_place_picker.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/activity_shared_contact_details.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/add_group_details_fragment.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/add_members_activity.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/add_to_group_activity.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/album_thumbnail_2.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/album_thumbnail_3.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/album_thumbnail_4.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/album_thumbnail_5.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/album_thumbnail_many.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/attachment_keyboad_media_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/attachment_keyboard_button_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/attachment_keyboard_fragment.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/audio_view.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/audio_view_circle.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/audio_view_circle_small.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/audio_view_draft.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/audio_view_draft_circle.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/audio_view_small.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/avatar_color_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/avatar_picker_fragment.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/avatar_picker_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/avatar_view.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/badge_display_112.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/badge_display_160.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/base_kbs_pin_fragment.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/basic_megaphone_view.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/bio_preference_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/blocked_users_activity.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/blocked_users_adapter_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/bold_selection_tab_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/boost_preview_preference.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/call_log_adapter_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/call_log_create_call_link_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/call_log_fragment.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/call_overflow_holder.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/call_overflow_popup.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/call_participant_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/call_participant_list_update.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/call_participants_list_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/call_screen_pending_participants_view.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/callee_must_accept_message_request_dialog_fragment.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/camera_contact_contact_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/camera_contact_header_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/camera_contact_selection_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/camera_controls_portrait.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/chat_color_selection_fragment.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/chat_colors_preview_view.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/chat_wallpaper_crop_activity.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/chat_wallpaper_fragment.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/chat_wallpaper_preview_activity.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/choose_new_admin_activity.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/circular_progress_material_button.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/contact_filter_view.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/contact_photo_preview_activity.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/contact_search_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/contact_search_story_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/contact_search_unknown_item.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/contact_selection_activity.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/contact_selection_list_chip.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/contact_selection_list_fragment.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_activity_attachment_editor_stub.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_activity_reminderview_stub.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_activity_unverified_banner_stub.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_header_view.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_input_panel.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_footer_incoming.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_footer_outgoing.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_join_button.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_payment.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_received_audio.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_received_document.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_received_gift.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_received_link_preview.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_received_multimedia.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_received_revealable.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_received_shared_contact.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_received_sticker.xml
+[2025-05-18 13:08:39] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_received_text_only.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_received_thumbnail.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_sent_audio.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_sent_document.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_sent_gift.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_sent_link_preview.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_sent_multimedia.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_sent_revealable.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_sent_shared_contact.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_sent_sticker.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_sent_text_only.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_sent_thumbnail.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_thread_header.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_thumbnail_album_thumbnail_view_stub.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_thumbnail_footer_view_stub.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_thumbnail_thumbnail_view_stub.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_item_update.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_list_filter_pull_view.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_list_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_list_item_action.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_list_item_view.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_list_reminder_view.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_list_search_toolbar.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_reaction_scrubber.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_search_nav.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_settings_avatar_preference_item.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_settings_bio_preference_item.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_settings_group_description_preference.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_settings_legacy_group_preference.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_settings_shared_media.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_settings_toolbar.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_test_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_title_view.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/conversation_typing_view.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/create_group_activity.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/create_payment_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/create_payment_fragment_amount.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/create_payment_fragment_amount_toggle.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/create_profile_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/credit_card_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/custom_chat_color_creator_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/custom_chat_color_creator_fragment_page.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/custom_expire_timer_select_dialog.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/deactivate_wallet_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/delete_account_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/device_add_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/device_list_item_view.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/dialog_group_members.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/dialog_multiple_group_invites_sent.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/document_view.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/donation_receipt_list_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/donation_receipt_list_item.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/dsl_learn_more_preference_item.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/dsl_multiline_text_input.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/dsl_outlined_learn_more.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/dsl_settings_toolbar.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/edit_about_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/edit_note_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/edit_profile_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/edit_profile_name_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/edit_proxy_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/edit_reactions_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/emoji_search_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/emoji_text_display_item_grid.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/emoji_text_display_item_list.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/exo_legacy_player_control_view.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/expire_timer_settings_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/expired_badge_preference.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/featured_badge_preview_preference.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/fragment_add_allowed_members.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/fragment_change_number_enter_phone_number.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/fragment_change_number_pin_differs.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/fragment_edit_notification_profile.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/fragment_edit_notification_profile_schedule.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/fragment_media_preview_v2.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/fragment_registration_choose_backup.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/fragment_registration_enter_code.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/fragment_registration_enter_phone_number.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/fragment_registration_lock.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/fragment_registration_restore_backup.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/fragment_registration_welcome.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/fragment_select_recipients_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/fragment_transfer_restore.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/gif_keyboard_page_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/gift_badge_preview_preference.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/gift_flow_confirmation_fragment.xml
+[2025-05-18 13:08:40] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/gift_message_view.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/giphy_activity.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/giphy_mp4_player.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/group_description_dialog.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/group_join_bottom_sheet.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/group_link_share_qr_dialog_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/group_new_candidate_recipient_list_item.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/group_pending_and_requesting_member_activity.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/group_pending_member_invites_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/group_recipient_list_item.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/group_recipient_requesting_list_item.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/group_requesting_member_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/groupsv1_migration_bottom_sheet.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/groupsv1_migration_learn_more_bottom_sheet.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/help_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/image_editor_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/inline_query_emoji_result.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/invite_activity.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/item_editable_contact.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/item_selectable_contact_field.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/keyboard_pager_emoji_page_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/keyboard_pager_search_bar.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/keyboard_pager_sticker_page_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/labeled_edit_text_default.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/link_preview.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/link_preview_thumbnail_stub.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/longmessage_bubble_received.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/longmessage_bubble_sent.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/longmessage_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/main_activity.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/main_activity_list_host_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/media_keyboard.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/media_overview_activity.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/media_overview_detail_item_audio.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/media_overview_detail_item_media.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/media_overview_gallery_item.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/media_overview_page_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/media_preview_image_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/media_preview_video_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/mediarail_media_item.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/mediasend_video_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/mentions_picker_recipient_list_item.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/message_details_recipient.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/message_details_recipient_header.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/message_request_bottom_bar.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/multiselect_forward_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/multiselect_forward_fragment_bottom_bar.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/my_support_preference.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/new_device_transfer_complete_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/notification_profile_entry_pref.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/notification_profile_recipient_list_item.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/on_reaction_sent_view.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/payment_details_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/payment_message_view.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/payment_pill_strip.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/payment_recipient_selection_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/payments_add_money_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/payments_home_fragment_header.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/payments_home_introducing_payments_item.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/payments_home_payment_item.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/payments_recovery_start_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/payments_transfer_qr_scan_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/pending_participant_view.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/pin_restore_entry_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/popup_megaphone_view.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/preference_storage_category.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/progress_card_dialog.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/prompt_battery_saver_bottom_sheet.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/prompt_passphrase_activity.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/proxy_bottom_sheet.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/react_with_any_emoji_bottom_sheet_dialog_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/reaction_burst_view.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/reactions_bottom_sheet_dialog_fragment_emoji_item.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/reactions_bottom_sheet_dialog_fragment_recipient_item.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/reactions_pill.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/recent_photo_view_item.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/recipient_bottom_sheet.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/recipient_preference_photo_rail_item.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/review_banner_view.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/review_card.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/safety_number_bucket_row_item.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/safety_number_change_recipient.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/safety_number_qr_page_fragment.xml
+[2025-05-18 13:08:41] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/safety_number_qr_view.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/safety_number_recipient_row_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/scribble_fragment_emojidrawer_stub.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/scribble_select_new_sticker_activity.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/share_contact_selection_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/share_interstitial_activity.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/shared_contact_view.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/show_admin_bottom_sheet.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/signal_bottom_action_bar_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/signal_context_menu_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/sticker_management_empty_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/sticker_management_header_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/sticker_management_sticker_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/sticker_preview_activity.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/sticker_preview_popup.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/sticker_search_dialog_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/sticker_view.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_base_recipient_selection_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_choose_group_bottom_sheet.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_create_story_name_field_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_create_with_recipients_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_edit_story_name_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_group_replies_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_group_text_reply_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_landing_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_landing_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_landing_item_my_stories.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_landing_reminder_view.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_multiselect_forward_activity.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_my_stories_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_post_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_private_story_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_private_story_recipient_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_reaction_bar.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_recipient_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_reply_to_story_composer.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_reply_to_story_composer_content.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_reply_to_story_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_story_view_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_text_post_creation_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_text_post_link_entry_content.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_text_post_link_entry_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_text_post_link_preview.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_text_post_text_entry_content.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_text_post_text_entry_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_text_post_view.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_viewer_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_viewer_fragment_page.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/stories_views_and_replies_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/story_info_recipient_row.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/story_viewer_first_time_navigation_stub.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/story_volume_overlay_view.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/submit_debug_log_activity.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/submit_debug_log_line_item.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/subscription_flow_badge_preview_preference.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/subscription_preference.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/text_avatar_creation_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/text_avatar_creation_fragment_content.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/text_avatar_creation_fragment_content_hidden_recycler.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/thanks_for_your_support_bottom_sheet_dialog_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/time_duration_picker_dialog.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/transfer_controls_stub.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/transfer_controls_view.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/typing_indicator_view.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/username_edit_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/username_qr_image_selection_activity.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/v2_conversation_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/v2_conversation_item_media_incoming.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/v2_conversation_item_media_outgoing.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/v2_conversation_item_quote_stub.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/v2_conversation_item_text_only_incoming.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/v2_conversation_item_text_only_outgoing.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/v2_conversation_item_thumbnail_stub.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/v2_media_add_message_dialog_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/v2_media_add_message_dialog_fragment_content.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/v2_media_gallery_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/v2_media_image_editor_hud.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/v2_media_image_editor_text_entry_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/v2_media_review_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/v2_quote_view.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/vector_avatar_creation_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/verification_pin_keyboard_view.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/verify_display_fragment.xml
+[2025-05-18 13:08:42] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/verify_scan_fragment.xml
+[2025-05-18 13:08:43] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/view_all_signal_connections_fragment.xml
+[2025-05-18 13:08:43] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/view_badge_bottom_sheet_dialog_fragment_page.xml
+[2025-05-18 13:08:43] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/view_once_message_activity.xml
+[2025-05-18 13:08:43] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/voice_note_draft_view.xml
+[2025-05-18 13:08:43] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/voice_note_player_stub.xml
+[2025-05-18 13:08:43] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/voice_note_player_view.xml
+[2025-05-18 13:08:43] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/webrtc_call_activity.xml
+[2025-05-18 13:08:43] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/webrtc_call_controls.xml
+[2025-05-18 13:08:43] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/webrtc_call_participants_layout.xml
+[2025-05-18 13:08:43] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/webrtc_call_reaction_recycler_item.xml
+[2025-05-18 13:08:43] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/webrtc_call_view.xml
+[2025-05-18 13:08:43] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/webrtc_call_view_header_large.xml
+[2025-05-18 13:08:43] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/res/layout/zooming_image_view.xml
+[2025-05-18 13:08:43] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/res/layout/fragment_registration_enter_phone_number.xml
+[2025-05-18 13:08:43] [INFO] Cleaned layout file: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/res/layout/settings_about_custom_layout.xml
+[2025-05-18 13:08:43] [STEP] Performing final security audit...
+[2025-05-18 13:08:43] [INFO] Searching for any remaining TeleMessage references...
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/build.gradle.kts
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/resources/AndroidManifest.xml
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/resources/res/values/values.xml
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/AlarmService.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/AndroidCopySDK.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/AndroidCopySettings.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/AndroidcopyInfo.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/ArchiveMessageEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/AudioSettingsManager.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/AuthenticationService.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/BackupJobIntentService.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/BackupService.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/BackupWorker.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/BuildConfig.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/CallListener.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/CallObj.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/CallReceiver.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/CallRecorder.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/CallRecorderService.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/CommonUtils.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/CompressionService.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/DataGrabber.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/DefinitionsSDKKt.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/GetMessagesService.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/GetOldMessagesService.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/HandleResponseListener.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/HeaderObj.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/ISendLogCallback.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/MMSIncomingReceiver.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/MessageEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/MessageType.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/Models/AudioSettings.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/Models/MessageDetailsArchive.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/Models/RecFileExt.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/Models/SignatureInfo.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/MultipleCall.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/NetworkAndChargingService.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/NetworkService.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/Packager.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/SDKSettings.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/SMSIncomingReceiver.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/SettingsEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/ShutdownReceiver.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/SimChangedReceiver.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/Startup.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/StatusListener.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/StopBackupWorker.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/StubAuthenticator.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/StubMessageContentProvider.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/SyncAdapter.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/SyncService.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/UpgradeVersionIntentService.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/Uploader.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/api/IArchiveDatabase.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/api/IArchiveMessageDao.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/api/IArchiveMessageHeaderDao.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/api/IDatabase.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/api/IFiler.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/api/IMessageStoreObserver.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/api/ISharedDao.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/api/SdkModule.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/compress/AndroidAudioConverter.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/compress/AudioFormat.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/compress/IConvertCallback.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/compress/ILoadCallback.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/converter/ArchiveAttachmentConverter.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/converter/ArchiveCallInfoConverter.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/converter/ArchiveChatConverter.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/converter/ArchiveEditMessageConverter.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/converter/ArchiveMessageConverter.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/converter/ArchiveRecipientConverter.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/converter/MessageDetailsConverter.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/database/ArchiveMessageDao.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/database/ArchiveMessageHeaderDao.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/database/DBEventsContract.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/database/DBEventsContractSignal.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/database/DBHeadersTable.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/database/DBKeepAliveQueryHelper.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/database/DBMessagesContract.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/database/DBMessagesContractSignal.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/database/DBMessagesHelper.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/database/DBMessagesHelperSignal.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/database/DefaultArchiveDatabase.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/database/MessageContentProvider.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/database/SQLFactory.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/database/SqlCipherLibraryLoader.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/database/UriUtils.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/device/AbstractFiler.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/device/ArchiveMessagesProcessor.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/device/DefaultMessageStoreObserver.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/device/MessageStoreProcessor.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/device/PcmAudioFileDecoder.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/device/PcmAudioFileDecoderKt.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/device/SdkMigrator.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/device/SendSignatureProcessor.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/AlertEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/AutoRecordingIsOff.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/BatterySDKEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/ChangeSimCardBackEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/ChangedSimCardEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/ConvertedFailed.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/DualSimWasRemoved.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/EventAbsObj.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/EventController.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/EventFactory.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/EventService.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/EventsAPI.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/EventsAPIobj.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/FailedRecordingsEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/IdleEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/InstallEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/InstallEventAPI.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/LowStorageEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/MissingFolderEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/MissingPermissionsEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/NoSupportForCallRecordingEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/PeriodicEventChecker.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/RecordingTerminatedDuringTheCallEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/SimRemovedWithoutLogout.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/StartRecordEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/StopRecordEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/UninstallEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/UpdateUserEvent.java
+[2025-05-18 13:08:43] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/events/UpdateVersionEvent.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/firebas_realtime_db/RealTimeDbListener.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ArchiveAttachment.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ArchiveAttachmentType.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ArchiveCallInfo.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ArchiveChat.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ArchiveEventInfo.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ArchiveEventType.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ArchiveMessage.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ArchiveMessageContext.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ArchiveMessageEdit.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ArchiveMessageHeader.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ArchiveMessageIdentifier.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ArchiveMessageType.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ArchiveRecipient.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ArchiveSettings.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/CallAnswerType.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/CallRtcMode.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ChatType.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/ClientType.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/Direction.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/MessageAttachmentStatus.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/MessageStatus.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/TimeUnit.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/Timestamp.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/model/resource/ResourceStatus.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/AndroidCopyServerAPI.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/Attachment.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/AuthententicationDetails.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/AuthententicationDetails2.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/AuthenticationDetails.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/Base/ServerBaseResponse.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/BodyBase.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/CallLogMessageRecorder.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/CallRequestBody.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/ContactName.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/DateConverter.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/DefaultNetworkProvider.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/EnaMmsRequestBody.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/EnrichedContact.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/EnsureRequest.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/FileMessages.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/GetAuthenticationToken.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/IssueReportMessageBody.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/JsonScope.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/JsonWriter.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/MMSMessageRecorder.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/Message.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/MmsRequestBody.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/NetworkConstance.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/NetworkManager.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/NetworkManagerAPIUtil.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/Properities.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/Reciepients.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/ReportLogs.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/ReportMessage.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/Response.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/SMSEVENTMessageRecord.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/SMSMessageRecord.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/SSLFactoryUtils.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/SendLogsRequestBody.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/TMEnsureIPManager.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/TMUpdateVersionManager.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/TeleMessageMMSArchive.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/TelemessageArchiverMessage.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/UpdateUserResponse.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/UpdateVersionRequest.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/UserFields.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/VersionAutomaticRollOutRequest.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/appSettings/ServerAppSettingsRequest.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/appSettings/ServerAppSettingsResponse.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/appSettings/Settings.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/appSettings/UpdateEvent.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/appSettings/WorkerIntentService.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/interceptor/DefaultHeadersInterceptor.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/interceptor/LoggingInterceptor.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/interceptor/NetworkLogLevel.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/interceptor/SocgenHeadersInterceptor.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/keepAlive/KeepALiveResponse.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/keepAlive/KeepAliveEvent.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/keepAlive/KeepAliveRequest.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/keepAlive/KeepAliveRequestV3.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/network/keepAlive/KeepWorkerIntentService.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/AudioRecordNative.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/IAudioRecorder.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/MyAudioFormat.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/MyAudioRecord.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/NativeWavRecorder.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/RecorderBase.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/RecorderFactory.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/WavAudioRecorder.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/Wave.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/igalCode/IgalAudioRecord.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/igalCode/IgalCallRecorderService.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/igalCode/IgalWavAudioRecorder.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/igalCode/mic/IaglLibLoader.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/igalCode/mic/IgalCallRecorderFromMic.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/igalCode/mic/IgalCallRecorderFromMicHelper.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/igalCode/mic/IgalRecorderHelper.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/mic/CallRecorderFromMic.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/mic/CallRecorderFromMicHelper.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/mic/LibLoader.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/recorder/mic/RecorderHelper.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/A2PUtils.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/Contact.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/ContactsUtils.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/ContentExtensions$register$1.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/ContentExtensions.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/DualSimUtils.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/FlavorSettings.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/FlavorSettingsBase.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/IsAliveReceiver.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/MDMReceiver.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/PhoneValidateResponse.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/PrefManager.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/PrefManagerConstants.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/RuntimeObject.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/StartConverEvent.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/StringObjects.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/StringsFlavorsUtils.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/utils/TMCredentialsStore.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/version_aoutomatic_rollout/ApplicationVersion.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/version_aoutomatic_rollout/VersionAutomaticRollOutManager.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/version_aoutomatic_rollout/VersionAutomaticRollOutManagerKt.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/version_aoutomatic_rollout/VersionAutomaticRollOutModel.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/androidcopysdk-signal/sources/com/tm/androidcopysdk/version_aoutomatic_rollout/VersionAutomaticRollOutWorker.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/resources/AndroidManifest.xml
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/resources/res/values/values.xml
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/mindorks/retrofit/coroutines/data/api/ApiHelper.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/mindorks/retrofit/coroutines/data/api/ApiService.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/AppSignatureHelper.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/BuildConfig.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/mamsdk/AppAccount.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/mamsdk/AppSettings.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/mamsdk/AuthenticationCallback.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/mamsdk/IMDMAuthenticator.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/mamsdk/MDMAuthenticator$manageNetwork$1.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/mamsdk/MDMAuthenticator.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/mamsdk/MDMAuthenticatorKt.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/mamsdk/MSALUtil.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/mamsdk/network/AuthMDMRepository$ensureIP$2.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/mamsdk/network/AuthMDMRepository.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/mamsdk/network/MDMAuthenticationAPI.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/mamsdk/network/RequestBody.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/mamsdk/network/ResponseBody.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/mamsdk/network/UserFields.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/selfAuthenticator/AuthenticationAppType.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/selfAuthenticator/AuthenticatorConstants.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/selfAuthenticator/FCMUtils.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/selfAuthenticator/IAuthenticationStatus.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/selfAuthenticator/IEnsureIpDataArrived.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/selfAuthenticator/IFCMTokenArrived.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/selfAuthenticator/IOnCredentialsArrived.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/selfAuthenticator/SelfAuthenticator$getUserCredentials$1.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/selfAuthenticator/SelfAuthenticator$onFCMTokenArrived$1.java
+[2025-05-18 13:08:44] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/selfAuthenticator/SelfAuthenticator.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/selfAuthenticator/api/ApiUtil.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/selfAuthenticator/model/RetrieveOTP.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/selfAuthenticator/model/UpdateUserResponse.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/selfAuthenticator/model/UserFields.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/AuthenticationListener.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/AuthenticatorAPI.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/AuthenticatorSDK.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/ContatcUsFileProvider.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/ErrorEvent.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/FlavorSettings.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/IReadPinFromSmsInterface.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/MessageEvent.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/NetworkConnectivityListener.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/OnAuthNumberReceivedListener.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/PinCodeEvent.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/PinSMSBroadcastReceiver.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/PinSmsHandler.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/RetrieveCredentials/MultiUserFields.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/RetrieveCredentials/RetrieveCredentialsReq.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/RetrieveCredentials/UserResponse.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/RetrieveOneTimePin/Response.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/RetrieveOneTimePin/RetrieveOneTimePINExtReq.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/SMSIncomingReceiver.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/UI/ActivationActivity.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/UI/SelfSignupActivity.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/UI/SignUpBase.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/UI/SignupActivity.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/signup/CryptoUtil.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/signup/SelfSignUpEvent.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/signup/SelfSignupService.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/signup/SelfSignupWorker.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/signup/SignUpManager.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/signup/SignupRequest.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/signup/SignupResponse.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/authenticatorsdk-signal/sources/com/tm/authenticatorsdk/socgen/signup/UserFields.java
+[2025-05-18 13:08:45] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/libs/common/sources/com/tm/utils/Definitions.java
+[2025-05-18 13:08:51] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/java/org/tm/archive/registration/fragments/RegistrationViewDelegate.kt
+[2025-05-18 13:08:51] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/java/org/tm/archive/registration/fragments/WelcomeFragment.java
+[2025-05-18 13:08:51] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/main/java/org/tm/archive/service/webrtc/SignalCallManager.java
+[2025-05-18 13:08:59] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/AndroidManifest.xml
+[2025-05-18 13:08:59] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/java/org/selfAuthentication/SelfAuthenticatorManager.kt
+[2025-05-18 13:08:59] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/java/org/tm/archive/BaseActivity.kt
+[2025-05-18 13:08:59] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/app/src/tm/res/values/colors.xml
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/converter/SignalArchiveMessageConverter.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/converter/SignalArchiveRecipientConverter.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/converter/SignalAttachmentConverter.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/converter/SignalCallInfoConverter.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/converter/SignalChatConverter.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/gcm/TeleMessageFcmReceiveService.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/data/TeleAttachmentTable.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/data/TeleMessageTable.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/model/Attachments.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/model/Messages.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/model/Recipients.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/model/SignalFiler.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/ArchiveFileUtil.java
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/ArchiveSender.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/ArchiveUtil.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/FCMConnector.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/device/TeleMessageSignalCallManager.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/annotation/TeleMessageUnfinalize.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage reference in: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/src/tm/java/archiver/di/TeleMessageApplicationDependencyProvider.kt
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage AAR file: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/libs/common-debug.aar
+[2025-05-18 13:09:04] [WARN] Remaining TeleMessage AAR file: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837/app/libs/common-release.aar
+[2025-05-18 13:09:04] [WARN] Security audit warning: Found 343 remaining TeleMessage references
+[2025-05-18 13:09:04] [INFO] TeleMessage component removal completed successfully!
+[2025-05-18 13:09:04] [INFO] Log file: /home/john/Documents/GitHub/TM-SGNL-Android/telemessage_removal_20250518_130837.log
+[2025-05-18 13:09:04] [INFO] Audit file: /home/john/Documents/GitHub/TM-SGNL-Android/telemessage_audit_20250518_130837.csv
+[2025-05-18 13:09:04] [INFO] Backup directory: /home/john/Documents/GitHub/TM-SGNL-Android/backup_telemessage_20250518_130837

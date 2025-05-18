@@ -13,7 +13,6 @@
         android:layout_height="match_parent"
         android:importantForAccessibility="no" />
 
-    <org.tm.archive.components.ClippedCardView
         android:id="@+id/text_story_text_background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,7 +25,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <org.tm.archive.stories.StoryTextView
             android:id="@+id/text_story_post_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -43,9 +41,7 @@
             tools:ignore="SpUsage"
             tools:text="TEST" />
 
-    </org.tm.archive.components.ClippedCardView>
 
-    <org.tm.archive.stories.StoryLinkPreviewView
         android:id="@+id/text_story_post_link_preview"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

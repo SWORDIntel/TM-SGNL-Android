@@ -50,7 +50,6 @@
                     app:layout_constraintVertical_bias="0.0"
                     app:layout_constraintVertical_chainStyle="spread_inside" />
 
-                <org.tm.archive.util.views.LearnMoreTextView
                     android:id="@+id/profile_description_text"
                     style="@style/Signal.Text.BodyMedium"
                     android:layout_width="match_parent"
@@ -143,7 +142,6 @@
                         android:hint="@string/CreateProfileActivity_first_name_required"
                         android:theme="@style/Signal.ThemeOverlay.TextInputLayout">
 
-                        <org.tm.archive.components.emoji.EmojiEditText
                             android:id="@+id/given_name"
                             style="@style/Widget.MaterialComponents.TextInputEditText.FilledBox"
                             android:layout_width="match_parent"
@@ -178,7 +176,6 @@
                         android:hint="@string/CreateProfileActivity_last_name_optional"
                         android:theme="@style/Signal.ThemeOverlay.TextInputLayout">
 
-                        <org.tm.archive.components.emoji.EmojiEditText
                             android:id="@+id/family_name"
                             style="@style/Widget.MaterialComponents.TextInputEditText.FilledBox"
                             android:layout_width="match_parent"
@@ -192,7 +189,6 @@
                     </com.google.android.material.textfield.TextInputLayout>
                 </LinearLayout>
 
-                <org.tm.archive.util.views.LearnMoreTextView
                     android:id="@+id/group_description_text"
                     style="@style/Signal.Text.BodyMedium"
                     android:layout_width="match_parent"
@@ -266,7 +262,6 @@
 
         </ScrollView>
 
-        <org.tm.archive.util.views.CircularProgressMaterialButton
             android:id="@+id/finish_button"
             android:layout_width="wrap_content"
             android:layout_height="50dp"

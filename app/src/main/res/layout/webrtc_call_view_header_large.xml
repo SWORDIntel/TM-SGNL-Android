@@ -25,7 +25,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Signal video call" />
 
-    <org.tm.archive.components.AvatarImageView
         android:id="@+id/call_screen_header_avatar"
         android:layout_width="96dp"
         android:layout_height="96dp"
@@ -41,7 +40,6 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="?actionBarSize" />
 
-    <org.tm.archive.components.emoji.EmojiTextView
         android:id="@+id/call_screen_recipient_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

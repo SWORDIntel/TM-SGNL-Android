@@ -29,7 +29,6 @@
         style="@style/Signal.Text.TitleSmall"
         app:layout_constraintTop_toBottomOf="@id/show_admin_handle" />
 
-    <org.tm.archive.groups.ui.GroupMemberListView
         android:id="@+id/show_admin_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

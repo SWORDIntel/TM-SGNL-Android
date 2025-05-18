@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.tm.archive.components.KeyboardAwareLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,7 +12,6 @@
         android:layout_height="match_parent"
         android:background="?mediaKeyboardBackgroundColor">
 
-        <org.tm.archive.keyboard.emoji.KeyboardPageSearchView
             android:id="@+id/emoji_search_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,4 +49,3 @@
             app:layout_constraintTop_toBottomOf="@id/emoji_search_view" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</org.tm.archive.components.KeyboardAwareLinearLayout>

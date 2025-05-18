@@ -588,9 +588,6 @@
         <item quantity="one">Binubura ang piniling chat…</item>
         <item quantity="other">Binubura ang mga piniling chat…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
-        <item quantity="one">Na-archive na ang chat</item>
-        <item quantity="other">Na-archive na ang %1$d chats</item>
     </plurals>
     <string name="ConversationListFragment_undo">Undo</string>
     <plurals name="ConversationListFragment_moved_conversations_to_inbox">
@@ -610,8 +607,6 @@
     <string name="ConversationListFragment_mute">I-mute</string>
     <string name="ConversationListFragment_unmute">I-unmute</string>
     <string name="ConversationListFragment_select">Piliin</string>
-    <string name="ConversationListFragment_archive">I-archive</string>
-    <string name="ConversationListFragment_unarchive">I-unarchive</string>
     <string name="ConversationListFragment_delete">Burahin</string>
     <string name="ConversationListFragment_select_all">Piliin lahat</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +627,6 @@
     <string name="ConversationListItem_key_exchange_message">Key exchange na mensahe</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Archived chats (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Beripikado</string>
@@ -2999,7 +2993,6 @@
     <string name="AndroidManifest__message_details">Mga detalye ng mensahe</string>
     <string name="AndroidManifest__linked_devices">Mga naka-link na device</string>
     <string name="AndroidManifest__invite_friends">Imbitahan ang mga kaibigan</string>
-    <string name="AndroidManifest_archived_conversations">Archived Chats</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Nabasa mo na ba ang ating FAQ?</string>
@@ -3100,10 +3093,6 @@
     <string name="preferences__sms_mms">SMS at MMS</string>
     <string name="preferences__pref_use_address_book_photos">Use address book photos</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">I-display ang contact photos mula sa address book mo kung available</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Panatilihing Naka-archive ang Muted Chats</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Mananatili sa archive ang muted chats kahit may bagong message na dumating.</string>
     <string name="preferences__generate_link_previews">Mag-generate ng link previews</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">I-retrieve ang link previews directly from websites for messages you send.</string>
     <string name="preferences__change_passphrase">Baguhin ang passphrase</string>
@@ -3610,7 +3599,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Larawang Imahe ng Kontak</string>
-    <string name="conversation_list_item_view__archived">Nai-archive</string>
 
 
     <!-- conversation_list_fragment -->

@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         tools:hint="Add a message">
 
-        <org.tm.archive.components.emoji.EmojiEditText
             android:id="@+id/input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

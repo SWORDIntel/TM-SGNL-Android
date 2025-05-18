@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.tm.archive.components.InsetAwareConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -19,7 +18,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:background="@drawable/test_gradient" />
 
-    <org.tm.archive.conversation.colors.ColorizerView
         android:id="@+id/colorizer"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
@@ -105,7 +103,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/preview_bubble_1">
 
-        <org.tm.archive.components.emoji.EmojiTextView
             android:id="@+id/preview_bubble_2_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -144,4 +141,3 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/preview_guideline" />
 
-</org.tm.archive.components.InsetAwareConstraintLayout>

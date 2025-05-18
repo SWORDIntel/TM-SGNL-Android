@@ -588,7 +588,6 @@
         <item quantity="one">Hautatutako txata ezabatzen…</item>
         <item quantity="other">Hautatutako txatak ezabatzen…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Txata artxibatu da</item>
         <item quantity="other">%1$d txat artxibatu dira</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">Desakt. jakin.</string>
     <string name="ConversationListFragment_unmute">Akt. jakinar.</string>
     <string name="ConversationListFragment_select">Aukeratu</string>
-    <string name="ConversationListFragment_archive">Artxibatu</string>
-    <string name="ConversationListFragment_unarchive">Desartxibatu</string>
     <string name="ConversationListFragment_delete">Ezabatu</string>
     <string name="ConversationListFragment_select_all">Hautatu dena</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">Gakoaren trukatzerako mezua</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Artxibatutako txatak (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Egiaztatua</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">Mezuaren xehetasunak</string>
     <string name="AndroidManifest__linked_devices">Lotutako gailuak</string>
     <string name="AndroidManifest__invite_friends">Gonbidatu lagunak</string>
-    <string name="AndroidManifest_archived_conversations">Artxibatutako txatak</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Gure FAQ-a irakurri duzu?</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">SMS eta MMS</string>
     <string name="preferences__pref_use_address_book_photos">Erabili kontaktuen-zerrendako irudiak</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Erakutsi sistemaren kontaktuen irudiak, baldin badaude</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Mantendu jakinarazpenak desaktibatuta dauzkaten txatak artxibatuta</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Jakinarazpenak desaktibatuta dauzkaten txatek artxibatuta jarraituko dute mezu berri bat iristen denean.</string>
     <string name="preferences__generate_link_previews">Sortu esteken aurrebistak</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Eskuratu esteken aurrebistak zuzenean webguneetatik eta erabili bidaltzen dituzun mezuetan.</string>
     <string name="preferences__change_passphrase">Aldatu pasaesaldia</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Kontaktuaren argazkia</string>
-    <string name="conversation_list_item_view__archived">Artxibatuta</string>
 
 
     <!-- conversation_list_fragment -->

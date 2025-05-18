@@ -588,7 +588,6 @@
         <item quantity="one">მიმდინარეობს არჩეული ჩატის წაშლა…</item>
         <item quantity="other">მიმდინარეობს არჩეული ჩატების წაშლა…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">ჩატი დაარქივებულია</item>
         <item quantity="other">%1$d ჩატი დაარქივდა</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">დადუმება</string>
     <string name="ConversationListFragment_unmute">ხმის ჩართვა</string>
     <string name="ConversationListFragment_select">არჩევა</string>
-    <string name="ConversationListFragment_archive">დაარქივება</string>
-    <string name="ConversationListFragment_unarchive">დეარქივაცია</string>
     <string name="ConversationListFragment_delete">წაშლა</string>
     <string name="ConversationListFragment_select_all">მონიშნე ყველა</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">გასაღების გაცვლის შეტყობინება</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">დაარქივებული ჩეთები (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">ვერიფიცირებულია</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">შეტყობინების დეტალები</string>
     <string name="AndroidManifest__linked_devices">დაკავშირებული მოწყობილობები</string>
     <string name="AndroidManifest__invite_friends">მოიწვიე მეგობრები</string>
-    <string name="AndroidManifest_archived_conversations">დაარქივებული ჩატები</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">უკვე წაიკითხე ჩვენი FAQ?</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">SMS-ი და MMS-ი</string>
     <string name="preferences__pref_use_address_book_photos">მისამართების წიგნაკის ფოტოების გამოყენება</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">აჩვენე საკონტაქტო ფოტოები შენი მისამართების წიგნიდან, თუ ეს შესაძლებელია</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">შეინახე დადუმებული ჩატები არქივში</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">ახალი წერილის მიღებისას, დაარქივებული დადუმებული ჩატები არქივში დარჩება.</string>
     <string name="preferences__generate_link_previews">ბმულსი წინასწარი ნახვის გენერირება</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">მიიღე ბმულის წინასწარი ნახვა შენს მიერ გაგზავნილი შეტყობინებებისთვის პირდაპირ ვებსაიტებიდან.</string>
     <string name="preferences__change_passphrase">პაროლ-ფრაზის შეცვლა</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">კონტაქტის ფოტო სურათი</string>
-    <string name="conversation_list_item_view__archived">დაარქივებული</string>
 
 
     <!-- conversation_list_fragment -->

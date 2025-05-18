@@ -7,7 +7,6 @@
     android:orientation="vertical">
 
     <androidx.fragment.app.FragmentContainerView
-        android:name="org.tm.archive.main.MainActivityListHostFragment"
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -16,7 +15,6 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/conversation_list_tabs"
-        android:name="org.tm.archive.stories.tabs.ConversationListTabsFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

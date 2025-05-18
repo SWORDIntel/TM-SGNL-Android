@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.tm.archive.conversation.ConversationItem xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -34,7 +33,6 @@
 
     </FrameLayout>
 
-    <org.tm.archive.conversation.ConversationItemBodyBubble
         android:id="@+id/body_bubble"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -60,7 +58,6 @@
             android:visibility="gone"
             tools:visibility="visible">
 
-            <org.tm.archive.components.emoji.EmojiTextView
                 android:id="@+id/story_reacted_label"
                 style="@style/TextAppearance.Signal.Subtitle"
                 android:layout_width="wrap_content"
@@ -73,7 +70,6 @@
 
         </LinearLayout>
 
-        <org.tm.archive.components.QuoteView
             android:id="@+id/quote_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -155,7 +151,6 @@
             android:layout_marginBottom="@dimen/message_bubble_bottom_padding"
             android:layout="@layout/conversation_item_sent_revealable" />
 
-        <org.tm.archive.components.emoji.EmojiTextView
             android:id="@+id/conversation_item_body"
             style="@style/Signal.Text.Body"
             android:layout_width="wrap_content"
@@ -178,7 +173,6 @@
             android:layout_height="wrap_content"
             android:layout="@layout/conversation_item_join_button" />
 
-        <org.tm.archive.components.ConversationItemFooter
             android:id="@+id/conversation_item_footer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -194,7 +188,6 @@
             app:footer_reveal_dot_color="@color/signal_icon_tint_secondary"
             app:footer_text_color="@color/signal_text_secondary" />
 
-        <org.tm.archive.components.ConversationItemFooter
             android:id="@+id/conversation_item_sticker_footer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -212,9 +205,7 @@
             app:footer_reveal_dot_color="@color/signal_icon_tint_secondary"
             app:footer_text_color="@color/signal_text_secondary" />
 
-    </org.tm.archive.conversation.ConversationItemBodyBubble>
 
-    <org.tm.archive.components.AlertView
         android:id="@+id/indicators_parent"
         android:layout_width="36dp"
         android:layout_height="36dp"
@@ -255,7 +246,6 @@
 
     </FrameLayout>
 
-    <org.tm.archive.reactions.ReactionsConversationView
         android:id="@+id/reactions_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -265,4 +255,3 @@
         android:orientation="horizontal"
         app:rcv_outgoing="true" />
 
-</org.tm.archive.conversation.ConversationItem>

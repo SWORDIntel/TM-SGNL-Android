@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.tm.archive.components.InputAwareConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -45,7 +44,6 @@
         app:layout_constraintStart_toStartOf="@id/parent_start_guideline"
         app:layout_constraintTop_toTopOf="parent">
 
-        <org.tm.archive.conversation.mutiselect.MultiselectRecyclerView
             android:id="@+id/conversation_item_recycler"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -89,7 +87,6 @@
         app:layout_constraintStart_toStartOf="@id/parent_start_guideline"
         app:layout_constraintTop_toTopOf="@id/status_bar_guideline" />
 
-    <org.tm.archive.util.views.DarkOverflowToolbar
         android:id="@+id/toolbar"
         android:layout_width="0dp"
         android:layout_height="@dimen/signal_m3_toolbar_height"
@@ -136,7 +133,6 @@
 
         </LinearLayout>
 
-    </org.tm.archive.util.views.DarkOverflowToolbar>
 
     <FrameLayout
         android:id="@+id/conversation_banner_frame"
@@ -147,7 +143,6 @@
         app:layout_constraintStart_toStartOf="@id/parent_start_guideline"
         app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
-        <org.tm.archive.conversation.v2.ConversationBannerView
             android:id="@+id/conversation_banner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -180,11 +175,9 @@
                 android:inflatedId="@+id/review_banner"
                 android:layout="@layout/review_banner_view" />
 
-        </org.tm.archive.conversation.v2.ConversationBannerView>
 
     </FrameLayout>
 
-    <org.tm.archive.components.ConversationScrollToView
         android:id="@+id/scroll_to_mention"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -197,7 +190,6 @@
         app:layout_goneMarginBottom="20dp"
         tools:visibility="visible" />
 
-    <org.tm.archive.components.ConversationScrollToView
         android:id="@+id/scroll_to_bottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -266,7 +258,6 @@
         app:layout_constraintEnd_toEndOf="@id/parent_end_guideline"
         app:layout_constraintStart_toStartOf="@id/parent_start_guideline" />
 
-    <org.tm.archive.conversation.v2.DisabledInputView
         android:id="@+id/conversation_disabled_input"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -330,7 +321,6 @@
         android:foreground="@color/reactions_screen_dark_shade_color"
         android:visibility="gone" />
 
-    <org.tm.archive.components.menu.SignalBottomActionBar
         android:id="@+id/conversation_bottom_action_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -352,4 +342,3 @@
         app:layout_constraintStart_toStartOf="@+id/parent_start_guideline"
         app:layout_constraintTop_toTopOf="@+id/status_bar_guideline" />
 
-</org.tm.archive.components.InputAwareConstraintLayout>

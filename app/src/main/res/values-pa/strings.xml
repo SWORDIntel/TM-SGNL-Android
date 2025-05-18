@@ -588,7 +588,6 @@
         <item quantity="one">ਚੁਣੀ ਹੋਈ ਚੈਟ ਨੂੰ ਮਿਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ…</item>
         <item quantity="other">ਚੁਣੀਆਂ ਹੋਈਆਂ ਚੈਟਾਂ ਨੂੰ ਮਿਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">ਚੈਟ ਆਰਕਾਈਵ ਕੀਤੀ ਗਈ</item>
         <item quantity="other">%1$d ਚੈਟਾਂ ਨੂੰ ਆਰਕਾਈਵ ਕੀਤਾ ਗਿਆ</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">ਮਿਊਟ ਕਰੋ</string>
     <string name="ConversationListFragment_unmute">ਅਨਮਿਊਟ ਕਰੋ</string>
     <string name="ConversationListFragment_select">ਚੁਣੋ</string>
-    <string name="ConversationListFragment_archive">ਆਰਕਾਈਵ ਕਰੋ</string>
-    <string name="ConversationListFragment_unarchive">ਅਨਆਰਕਾਈਵ ਕਰੋ</string>
     <string name="ConversationListFragment_delete">ਮਿਟਾਓ</string>
     <string name="ConversationListFragment_select_all">ਸਭ ਚੁਣੋ</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">ਮੁੱਖ ਐਕਸਚੇਂਜ ਸੁਨੇਹਾ</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">ਆਰਕਾਈਵ ਕੀਤੀਆਂ ਚੈਟਾਂ (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">ਪ੍ਰਮਾਣਿਤ</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">ਸੁਨੇਹਾ ਵੇਰਵੇ</string>
     <string name="AndroidManifest__linked_devices">ਲਿੰਕ ਕੀਤੀਆਂ ਡਿਵਾਈਸਾਂ</string>
     <string name="AndroidManifest__invite_friends">ਦੋਸਤਾਂ ਨੂੰ ਸੱਦਾ ਦਿਓ</string>
-    <string name="AndroidManifest_archived_conversations">ਆਰਕਾਈਵ ਕੀਤੀਆਂ ਚੈਟਾਂ</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">ਕੀ ਤੁਸੀਂ ਹਾਲੇ ਸਾਡੇ ਸਵਾਲ-ਜਵਾਬ ਪੜ੍ਹ ਲਏ ਹਨ?</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">SMS ਅਤੇ MMS</string>
     <string name="preferences__pref_use_address_book_photos">ਐਡਰੈਸ ਬੁੱਕ ਫੋਟੋਆਂ ਵਰਤੋਂ</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">ਤੁਹਾਡੀ ਐਡਰੈਸ ਬੁੱਕ ਤੋਂ ਸੰਪਰਕ ਤਸਵੀਰ ਵੇਖਾਓ, ਜੇ ਉਪਲਬਧ ਹੋਣ</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">ਮਿਊਟ ਕੀਤੀਆਂ ਗਈਆਂ ਚੈਟਾਂ ਨੂੰ ਆਰਕਾਈਵ ਵਿੱਚ ਹੀ ਰੱਖੋ</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">ਨਵਾਂ ਸੁਨੇਹਾ ਆਉਣ \'ਤੇ ਆਰਕਾਈਵ ਵਿੱਚ ਮੌਜੂਦ ਮਿਊਟ ਕੀਤੀਆਂ ਗਈਆਂ ਚੈਟਾਂ, ਆਰਕਾਈਵ ਵਿੱਚ ਹੀ ਰਹਿਣਗੀਆਂ।</string>
     <string name="preferences__generate_link_previews">ਲਿੰਕ ਝਲਕ ਤਿਆਰ ਕਰੋ</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">ਹੁਣ ਤੁਹਾਡੇ ਦੁਆਰਾ ਭੇਜੇ ਗਏ ਸੁਨੇਹਿਆਂ ਲਈ ਸਿੱਧੇ ਕਿਸੇ ਵੀ ਵੈੱਬਸਾਈਟ ਤੋਂ ਲਿੰਕ ਝਲਕ ਪ੍ਰਾਪਤ ਕਰੋ।</string>
     <string name="preferences__change_passphrase">ਪਾਸਫ਼੍ਰੇਜ਼ ਬਦਲੋ</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">ਸੰਪਰਕ ਫੋਟੋ ਚਿੱਤਰ</string>
-    <string name="conversation_list_item_view__archived">ਆਰਕਾਈਵ</string>
 
 
     <!-- conversation_list_fragment -->

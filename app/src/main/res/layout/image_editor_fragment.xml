@@ -15,7 +15,6 @@
         android:gravity="center"
         app:imageEditorView_blackoutColor="@color/signal_colorBackground" />
 
-    <org.tm.archive.scribbles.ImageEditorHudV2
         android:id="@+id/scribble_hud"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

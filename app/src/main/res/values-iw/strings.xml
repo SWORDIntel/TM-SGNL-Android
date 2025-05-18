@@ -612,7 +612,6 @@
         <item quantity="many">מוחקים צ׳אטים שנבחרו…</item>
         <item quantity="other">מוחקים צ׳אטים שנבחרו…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">צ׳אט אוחסן בארכיון</item>
         <item quantity="two">%1$d צ׳אטים אוחסנו בארכיון</item>
         <item quantity="many">%1$d צ׳אטים אוחסנו בארכיון</item>
@@ -642,8 +641,6 @@
     <string name="ConversationListFragment_mute">השתקה</string>
     <string name="ConversationListFragment_unmute">ביטול השתקה</string>
     <string name="ConversationListFragment_select">בחירה</string>
-    <string name="ConversationListFragment_archive">העברה לארכיון</string>
-    <string name="ConversationListFragment_unarchive">הוצאה מארכיון</string>
     <string name="ConversationListFragment_delete">מחיקה</string>
     <string name="ConversationListFragment_select_all">בחירת הכל</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -666,7 +663,6 @@
     <string name="ConversationListItem_key_exchange_message">הודעת החלפת מפתחות</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">צ׳אטים מאוחסנים בארכיון (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">מוודא</string>
@@ -3187,7 +3183,6 @@
     <string name="AndroidManifest__message_details">פרטי הודעה</string>
     <string name="AndroidManifest__linked_devices">מכשירים מקושרים</string>
     <string name="AndroidManifest__invite_friends">הזמן חברים</string>
-    <string name="AndroidManifest_archived_conversations">צ\'אטים מאוחסנים בארכיון</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">האם קראת כבר את השאלות הנפוצות?</string>
@@ -3290,10 +3285,6 @@
     <string name="preferences__sms_mms">מסרון ו־MMS</string>
     <string name="preferences__pref_use_address_book_photos">השתמש בתמונות של פנקס הכתובות</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">הצג תמונות אנשי קשר מפנקס הכתובות אם זמינות</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">השארת צ׳אטים מושתקים בארכיון</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">צ׳אטים מושתקים שמאוחסנים בארכיון יישארו בארכיון כשהודעה חדשה מגיעה.</string>
     <string name="preferences__generate_link_previews">חולל תצוגות מקדימות של קישורים</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">אחזר תצוגות מקדימות של קישורים ישירות מאתרים עבור הודעות שאתה שולח.</string>
     <string name="preferences__change_passphrase">שנה משפט־סיסמה</string>
@@ -3806,7 +3797,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">תמונת איש קשר</string>
-    <string name="conversation_list_item_view__archived">בארכיון</string>
 
 
     <!-- conversation_list_fragment -->

@@ -14,7 +14,6 @@
         android:orientation="vertical"
         android:gravity="center">
 
-        <org.tm.archive.components.emoji.EmojiTextView
             android:id="@+id/sticker_popup_emoji"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -588,7 +588,6 @@
         <item quantity="one">Бришемо изабрано ћаскање…</item>
         <item quantity="other">Бришемо изабрана ћаскања…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Ћаскања су архивирана (%1$d)</item>
         <item quantity="other">Ћаскања су архивирана (%1$d)</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">Утишај</string>
     <string name="ConversationListFragment_unmute">Укључи обавеш.</string>
     <string name="ConversationListFragment_select">Изабери</string>
-    <string name="ConversationListFragment_archive">Архивирај</string>
-    <string name="ConversationListFragment_unarchive">Врати из архиве</string>
     <string name="ConversationListFragment_delete">Избриши</string>
     <string name="ConversationListFragment_select_all">Изабери све</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">Порука за размену кључева</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Архивирана ћаскања (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Верификован корисник</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">Детаљи поруке</string>
     <string name="AndroidManifest__linked_devices">Повезани уређаји</string>
     <string name="AndroidManifest__invite_friends">Позовите пријатеље</string>
-    <string name="AndroidManifest_archived_conversations">Архивирана ћаскања</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Јесте ли већ прочитали наша честа питања?</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">SMS и MMS</string>
     <string name="preferences__pref_use_address_book_photos">Користи слике из адресара</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Прикажи слике контаката из адресара ако су доступне</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Остави ћаскања са искљученим обавештењима архивирана</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Ћаскања са искљученим обавештењима која су архивирана остаће архивирана када стигне нова порука.</string>
     <string name="preferences__generate_link_previews">Генериши приказ линка</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Директно са веб-сајтова преузимајте приказе линкова за поруке које шаљете.</string>
     <string name="preferences__change_passphrase">Промените приступну фразу</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Слика контакта</string>
-    <string name="conversation_list_item_view__archived">Архивирано</string>
 
 
     <!-- conversation_list_fragment -->

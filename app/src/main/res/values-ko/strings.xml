@@ -576,7 +576,6 @@
     <plurals name="ConversationListFragment_deleting_selected_conversations">
         <item quantity="other">선택한 대화를 삭제하는 중…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="other">%1$d개 대화를 보관함</item>
     </plurals>
     <string name="ConversationListFragment_undo">실행 취소</string>
@@ -594,8 +593,6 @@
     <string name="ConversationListFragment_mute">알림 끄기</string>
     <string name="ConversationListFragment_unmute">알림 켜기</string>
     <string name="ConversationListFragment_select">선택</string>
-    <string name="ConversationListFragment_archive">보관</string>
-    <string name="ConversationListFragment_unarchive">보관 해제</string>
     <string name="ConversationListFragment_delete">삭제</string>
     <string name="ConversationListFragment_select_all">모두 선택</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -615,7 +612,6 @@
     <string name="ConversationListItem_key_exchange_message">핵심 교환 메시지</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">보관한 대화(%1$d개)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">인증됨</string>
@@ -2905,7 +2901,6 @@
     <string name="AndroidManifest__message_details">메시지 세부 정보</string>
     <string name="AndroidManifest__linked_devices">연결된 기기</string>
     <string name="AndroidManifest__invite_friends">친구 초대</string>
-    <string name="AndroidManifest_archived_conversations">보관된 대화</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">아직 FAQ를 읽지 않으셨나요?</string>
@@ -3005,10 +3000,6 @@
     <string name="preferences__sms_mms">SMS 및 MMS</string>
     <string name="preferences__pref_use_address_book_photos">주소록 사진 사용하기</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">가능할 경우 주소록에 있는 연락처 사진들을 보이기</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">알림 끈 대화를 보관 상태로 유지</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">알림을 꺼서 보관한 대화는 새 메시지가 도착해도 보관 상태로 유지됩니다.</string>
     <string name="preferences__generate_link_previews">링크 미리보기 생성</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">보내는 메시지에 첨부된 웹 사이트의 링크 미리보기를 불러옵니다.</string>
     <string name="preferences__change_passphrase">암호 변경</string>
@@ -3512,7 +3503,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">연락처 사진</string>
-    <string name="conversation_list_item_view__archived">보관됨</string>
 
 
     <!-- conversation_list_fragment -->

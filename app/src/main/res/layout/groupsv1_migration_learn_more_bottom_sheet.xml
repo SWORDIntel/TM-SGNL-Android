@@ -107,7 +107,6 @@
                         android:textColor="@color/signal_text_primary"
                         tools:text="Plurized string for pending members." />
 
-                    <org.tm.archive.groups.ui.GroupMemberListView
                         android:id="@+id/gv1_learn_more_pending_list"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -148,7 +147,6 @@
                         android:textColor="@color/signal_text_primary"
                         tools:text="Plurized string for ineligible members." />
 
-                    <org.tm.archive.groups.ui.GroupMemberListView
                         android:id="@+id/gv1_learn_more_dropped_list"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

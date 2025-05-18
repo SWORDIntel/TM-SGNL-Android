@@ -612,11 +612,6 @@
         <item quantity="many">Odstraňování vybraných chatů…</item>
         <item quantity="other">Odstraňování vybraných chatů…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
-        <item quantity="one">Chat archivován</item>
-        <item quantity="few">%1$d chaty archivovány</item>
-        <item quantity="many">%1$d chatů archivováno</item>
-        <item quantity="other">%1$d chatů archivováno</item>
     </plurals>
     <string name="ConversationListFragment_undo">Zpět</string>
     <plurals name="ConversationListFragment_moved_conversations_to_inbox">
@@ -642,8 +637,6 @@
     <string name="ConversationListFragment_mute">Ztlumit</string>
     <string name="ConversationListFragment_unmute">Zapnout</string>
     <string name="ConversationListFragment_select">Vybrat</string>
-    <string name="ConversationListFragment_archive">Archivovat</string>
-    <string name="ConversationListFragment_unarchive">Nearchivovat</string>
     <string name="ConversationListFragment_delete">Smazat</string>
     <string name="ConversationListFragment_select_all">Vybrat vše</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -666,7 +659,6 @@
     <string name="ConversationListItem_key_exchange_message">Zpráva o výměně klíčů</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Archivované chaty (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Ověřeno</string>
@@ -3187,7 +3179,6 @@
     <string name="AndroidManifest__message_details">Podrobnosti zprávy</string>
     <string name="AndroidManifest__linked_devices">Propojená zařízení</string>
     <string name="AndroidManifest__invite_friends">Pozvat přátele</string>
-    <string name="AndroidManifest_archived_conversations">Archivované chaty</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Četli jste už často kladené otázky (FAQ)?</string>
@@ -3290,10 +3281,6 @@
     <string name="preferences__sms_mms">SMS a MMS</string>
     <string name="preferences__pref_use_address_book_photos">Použít fotografii z adresáře</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Pokud je k dispozici, zobrazit fotografii kontaktu z adresáře</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Ponechat ztlumené chaty archivované</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Ztlumené chaty, které jsou archivovány, zůstanou archivovány i po příchodu nové zprávy.</string>
     <string name="preferences__generate_link_previews">Vygenerovat náhledy odkazů</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Pro zprávy, které odesíláte, získat náhledy odkazů přímo z webů.</string>
     <string name="preferences__change_passphrase">Změnit heslo</string>
@@ -3806,7 +3793,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Fotografie kontaktu</string>
-    <string name="conversation_list_item_view__archived">Archivováno</string>
 
 
     <!-- conversation_list_fragment -->

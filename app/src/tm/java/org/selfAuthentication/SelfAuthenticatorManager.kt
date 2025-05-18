@@ -14,12 +14,10 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.tm.archive.BaseActivity
 import org.tm.archive.BuildConfig
-import org.tm.archive.TeleMessageSignalApplication
 import org.tm.archive.dependencies.ApplicationDependencies
 
 //In order to change the environment base url call to this method:
 //ApiUtil.Companion.selectServerEnvironment(Context)
-//The default environment is charlieProduction = https://rest.telemessage.com
 
 object SelfAuthenticatorManager : IEnsureIpDataArrived {
 

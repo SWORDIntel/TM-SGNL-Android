@@ -26,7 +26,6 @@
             app:titleTextColor="@color/media_overview_toolbar_foreground"
             tools:title="Media Overview" />
 
-        <org.tm.archive.components.ControllableTabLayout
             android:id="@+id/tab_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -77,7 +76,6 @@
             app:srcCompat="@drawable/symbol_arrow_down_compact_bold_16" />
 
 
-        <org.tm.archive.components.AnimatingToggle
             android:id="@+id/grid_list_toggle"
             android:layout_width="48dp"
             android:layout_height="48dp"
@@ -116,13 +114,11 @@
                 android:visibility="gone"
                 app:srcCompat="@drawable/symbol_list_bullet_24" />
 
-        </org.tm.archive.components.AnimatingToggle>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    <org.tm.archive.components.ControllableViewPager
         android:id="@+id/pager"
         android:layout_width="0dp"
         android:layout_height="0dp"

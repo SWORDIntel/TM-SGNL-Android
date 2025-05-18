@@ -10,7 +10,6 @@
     android:minHeight="64dp"
     android:paddingHorizontal="@dimen/selectable_list_item_padding">
 
-    <org.tm.archive.components.AvatarImageView
         android:id="@+id/avatar"
         android:layout_width="40dp"
         android:layout_height="40dp"
@@ -19,7 +18,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.tm.archive.components.FromTextView
         android:id="@+id/name"
         android:layout_width="0dp"
         android:layout_height="match_parent"

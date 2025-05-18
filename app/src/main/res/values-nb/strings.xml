@@ -588,7 +588,6 @@
         <item quantity="one">Sletter samtalen …</item>
         <item quantity="other">Sletter samtalene …</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Samtalen er arkivert</item>
         <item quantity="other">%1$d samtaler er arkivert</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">Slå av lyden</string>
     <string name="ConversationListFragment_unmute">Slå på lyden</string>
     <string name="ConversationListFragment_select">Velg</string>
-    <string name="ConversationListFragment_archive">Arkiver</string>
-    <string name="ConversationListFragment_unarchive">Hent fra arkiv</string>
     <string name="ConversationListFragment_delete">Slett</string>
     <string name="ConversationListFragment_select_all">Velg alle</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">Nøkkelutveksling</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Arkiverte samtaler (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Verifisert</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">Meldingsdetaljer</string>
     <string name="AndroidManifest__linked_devices">Koblede enheter</string>
     <string name="AndroidManifest__invite_friends">Inviter venner</string>
-    <string name="AndroidManifest_archived_conversations">Arkiverte samtaler</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Har du lest våre vanlige spørsmål ennå?</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">SMS og MMS</string>
     <string name="preferences__pref_use_address_book_photos">Benytt adressebokbilder</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Vis adressebokbilder hvis tilgjengelig</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Hold dempede samtaler arkivert</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Dempede samtaler som er arkiverte vil forbli arkiverte selv når du får en ny melding.</string>
     <string name="preferences__generate_link_previews">Forhåndsvis nettsteder</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Hent forhåndsvisninger av lenker direkte fra nettsteder for meldinger du sender.</string>
     <string name="preferences__change_passphrase">Endre passordfrase</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Kontaktfoto</string>
-    <string name="conversation_list_item_view__archived">Arkivert</string>
 
 
     <!-- conversation_list_fragment -->

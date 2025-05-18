@@ -588,7 +588,6 @@
         <item quantity="one">Seçilen sohbet siliniyor…</item>
         <item quantity="other">Seçilen sohbetler siliniyor…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Sohbet arşivlendi</item>
         <item quantity="other">%1$d sohbet arşivlendi</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">Sessiz</string>
     <string name="ConversationListFragment_unmute">Sesi aç</string>
     <string name="ConversationListFragment_select">Seç</string>
-    <string name="ConversationListFragment_archive">Arşivle</string>
-    <string name="ConversationListFragment_unarchive">Çıkart</string>
     <string name="ConversationListFragment_delete">Sil</string>
     <string name="ConversationListFragment_select_all">Hepsini seç</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">Anahtar takas iletisi</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Arşivlenmiş sohbetler (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Doğrulandı</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">İleti ayrıntıları</string>
     <string name="AndroidManifest__linked_devices">Bağlı cihazlar</string>
     <string name="AndroidManifest__invite_friends">Arkadaşlarını davet et</string>
-    <string name="AndroidManifest_archived_conversations">Arşivlenmiş sohbetler</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">SSS sayfamızı okudunuz mu?</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">SMS ve MMS</string>
     <string name="preferences__pref_use_address_book_photos">Rehber fotoğraflarını kullan</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Eğer varsa rehberdeki kişi fotoğraflarını göster</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Sessize Alınmış Sohbetleri Arşivde Tut</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Arşivlenerek sessize alınan sohbetler, yeni bir mesaj geldiğinde arşivlenmiş olarak kalır.</string>
     <string name="preferences__generate_link_previews">Bağlantı önizlemelerini oluştur</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Gönderdiğiniz iletiler için doğrudan web sitelerinden bağlantı önizlemelerini al.</string>
     <string name="preferences__change_passphrase">Parola değiştir</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Kişi Fotoğrafı</string>
-    <string name="conversation_list_item_view__archived">Arşivlendi</string>
 
 
     <!-- conversation_list_fragment -->

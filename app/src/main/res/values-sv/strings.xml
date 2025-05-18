@@ -588,7 +588,6 @@
         <item quantity="one">Tar bort vald chatt …</item>
         <item quantity="other">Tar bort valda chattar …</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Chat arkiverad</item>
         <item quantity="other">%1$d chattar arkiverade</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">Tysta</string>
     <string name="ConversationListFragment_unmute">Avtysta</string>
     <string name="ConversationListFragment_select">Markera</string>
-    <string name="ConversationListFragment_archive">Arkivera</string>
-    <string name="ConversationListFragment_unarchive">Avarkivera</string>
     <string name="ConversationListFragment_delete">Ta bort</string>
     <string name="ConversationListFragment_select_all">Markera alla</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">Nyckelutbytesmeddelande</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Arkiverade chattar (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Verifierat</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">Meddelandedetaljer</string>
     <string name="AndroidManifest__linked_devices">Länkade enheter</string>
     <string name="AndroidManifest__invite_friends">Bjud in vänner</string>
-    <string name="AndroidManifest_archived_conversations">Arkiverade chattar</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Har du läst våra Vanliga frågor ännu?</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">SMS och MMS</string>
     <string name="preferences__pref_use_address_book_photos">Använd foton från adressboken</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Visa kontaktfoton från din adressbok om tillgängliga</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Håll tystade chattar arkiverade</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Tystade chattar som är arkiverade förblir arkiverade när ett nytt meddelande kommer.</string>
     <string name="preferences__generate_link_previews">Skapa länkförhandsgranskningar</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Hämta länkförhandsgranskningar direkt från webbplatser för meddelanden du skickar.</string>
     <string name="preferences__change_passphrase">Ändra lösenord</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Kontaktfoto</string>
-    <string name="conversation_list_item_view__archived">Arkiverad</string>
 
 
     <!-- conversation_list_fragment -->

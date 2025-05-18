@@ -2,7 +2,6 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:parentTag="org.tm.archive.components.webrtc.WebRtcCallView"
     tools:viewBindingIgnore="true">
 
     <include layout="@layout/system_ui_guidelines" />
@@ -53,7 +52,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="gone">
 
-        <org.tm.archive.components.webrtc.TextureViewRenderer
             android:id="@+id/call_screen_large_local_renderer"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
@@ -95,7 +93,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-        <org.tm.archive.components.recyclerview.NoTouchingRecyclerView
             android:id="@+id/call_screen_reactions_feed"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -177,7 +174,6 @@
             tools:listitem="@layout/webrtc_call_participant_recycler_item"
             tools:visibility="visible" />
 
-        <org.tm.archive.util.views.TouchInterceptingFrameLayout
             android:id="@+id/call_screen_pip_area"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -207,7 +203,6 @@
                     android:layout_height="match_parent" />
 
             </com.google.android.material.card.MaterialCardView>
-        </org.tm.archive.util.views.TouchInterceptingFrameLayout>
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/webrtc_call_view_toolbar_no_text"
@@ -324,7 +319,6 @@
             app:layout_constraintStart_toStartOf="parent"
             tools:visibility="gone" />
 
-        <org.tm.archive.stories.viewer.reply.reaction.MultiReactionBurstLayout
             android:id="@+id/call_screen_reactions_container"
             android:layout_width="0dp"
             android:layout_height="0dp"

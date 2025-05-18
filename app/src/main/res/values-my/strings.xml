@@ -576,7 +576,6 @@
     <plurals name="ConversationListFragment_deleting_selected_conversations">
         <item quantity="other">ရွေးထားသော ချက်(တ်)များကို ဖျက်နေဆဲ…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="other">ချက်(တ်) %1$d ခုကို စုစည်းပြီး</item>
     </plurals>
     <string name="ConversationListFragment_undo">လုပ်ဆောင်ချက် ဖျက်သိမ်းရန်</string>
@@ -594,8 +593,6 @@
     <string name="ConversationListFragment_mute">အသံပိတ်ရန်</string>
     <string name="ConversationListFragment_unmute">အသံဖွင့်ရန်</string>
     <string name="ConversationListFragment_select">ရွေးရန်</string>
-    <string name="ConversationListFragment_archive">စုစည်းရန်</string>
-    <string name="ConversationListFragment_unarchive">ပြန်ထုတ်ရန်</string>
     <string name="ConversationListFragment_delete">ဖျက်ရန်</string>
     <string name="ConversationListFragment_select_all">အားလုံးရွေးရန်</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -615,7 +612,6 @@
     <string name="ConversationListItem_key_exchange_message">ကီးအလဲအလှယ် စာသား</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">စုစည်းထားသော ချက်(တ်)များ (%1$d ခု)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">အတည်ပြုပါသည်</string>
@@ -2905,7 +2901,6 @@
     <string name="AndroidManifest__message_details">စာတို အသေးစိတ်အချက်အလက်များ</string>
     <string name="AndroidManifest__linked_devices">ချိတ်ဆက်ထားသော စက်ပစ္စည်းများ</string>
     <string name="AndroidManifest__invite_friends">သူငယ်ချင်းများကို ဖိတ်ပါ</string>
-    <string name="AndroidManifest_archived_conversations">စုစည်းထားသော ချက်(တ်)များ</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">ကျွန်တော်တို့၏ မကြာခဏမေးလေ့ရှိသောမေးခွန်းများကို ဖတ်ပြီးပြီလား?</string>
@@ -3005,10 +3000,6 @@
     <string name="preferences__sms_mms">SMS နှင့် MMS</string>
     <string name="preferences__pref_use_address_book_photos">လိပ်စာစာအုပ်ဓာတ်ပုံများကို သုံးပါ</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">ဖြစ်နိုင်လျှင် စနစ်ထဲရှိ အဆက်အသွယ်များ၏ ရုပ်ပုံများကို ပြသပါ</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">အသံပိတ်ထားသည့် ချက်(တ်)များကို ဆက်လက်စုစည်းရန်</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">မက်ဆေ့ချ်အသစ် ရောက်လာချိန်တွင် စုစည်းပြီးသော အသံပိတ်ထားသည့် ချက်(တ်)များသည် စုစည်းလျက်သား ဆက်ရှိနေပါမည်။</string>
     <string name="preferences__generate_link_previews">ကြိုတင်ကြည့်ရှုရန် လင့်ခ်များ ထုတ်လုပ်ပါ</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">သင်ပေးပို့သော မက်ဆေ့ချ်များ အတွက် ဝဘ်ဆိုဒ်များမှ ကြိုတင်ကြည့်ရှုနိုင်သည့် လင့်ခ်များကို တိုက်ရိုက်ရယူပါ။</string>
     <string name="preferences__change_passphrase">စကားဝှက်ကို ပြောင်းပါ</string>
@@ -3512,7 +3503,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">အဆက်အသွယ်၏ ရုပ်ပုံ</string>
-    <string name="conversation_list_item_view__archived">မှတ်တမ်းသိမ်းပြီး</string>
 
 
     <!-- conversation_list_fragment -->

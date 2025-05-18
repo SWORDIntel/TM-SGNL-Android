@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.tm.archive.conversationlist.ConversationListItem xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -46,7 +45,6 @@
 
     </FrameLayout>
 
-    <org.tm.archive.components.AvatarImageView
         android:id="@+id/conversation_list_item_avatar"
         android:layout_width="@dimen/conversation_list_avatar_size"
         android:layout_height="@dimen/conversation_list_avatar_size"
@@ -59,7 +57,6 @@
         app:layout_goneMarginStart="0dp"
         tools:src="@tools:sample/avatars" />
 
-    <org.tm.archive.components.FromTextView
         android:id="@+id/conversation_list_item_name"
         style="@style/Signal.Text.BodyLarge"
         android:layout_width="0dp"
@@ -78,7 +75,6 @@
         app:layout_constraintVertical_chainStyle="packed"
         tools:text="Long Chat name for testing purposes" />
 
-    <org.tm.archive.components.AlertView
         android:id="@+id/conversation_list_item_alert"
         android:layout_width="18dp"
         android:layout_height="18dp"
@@ -89,7 +85,6 @@
         app:layout_constraintTop_toBottomOf="@id/conversation_list_item_name"
         tools:visibility="visible" />
 
-    <org.tm.archive.components.emoji.EmojiTextView
         android:id="@+id/conversation_list_item_summary"
         style="@style/Signal.Text.BodyMedium"
         android:layout_width="0dp"
@@ -106,7 +101,6 @@
         app:layout_constraintTop_toBottomOf="@id/conversation_list_item_name"
         tools:text="I'll send those photos over to the Bugle ASAP." />
 
-    <org.tm.archive.components.TypingIndicatorView
         android:id="@+id/conversation_list_item_typing_indicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -141,7 +135,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/conversation_list_item_date">
 
-        <org.tm.archive.components.DeliveryStatusView
             android:id="@+id/conversation_list_item_status"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -180,23 +173,19 @@
             tools:text="99+" />
 
         <TextView
-            android:id="@+id/conversation_list_item_archived"
             style="@style/Signal.Text.BodySmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
-            android:background="@drawable/archived_indicator_background"
             android:paddingStart="8dp"
             android:paddingTop="1dp"
             android:paddingEnd="8dp"
             android:paddingBottom="1dp"
-            android:text="@string/conversation_list_item_view__archived"
             android:textColor="@color/signal_colorSurface"
             tools:visibility="gone" />
 
     </LinearLayout>
 
-    <org.tm.archive.badges.BadgeImageView
         android:id="@+id/conversation_list_item_badge"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -207,4 +196,3 @@
         app:layout_constraintStart_toStartOf="@id/conversation_list_item_avatar"
         app:layout_constraintTop_toTopOf="@id/conversation_list_item_avatar" />
 
-</org.tm.archive.conversationlist.ConversationListItem>

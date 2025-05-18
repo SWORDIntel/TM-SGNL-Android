@@ -612,7 +612,6 @@
         <item quantity="many">Usuwanie wybranych czatów…</item>
         <item quantity="other">Usuwanie wybranych czatów…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Czat zarchiwizowany</item>
         <item quantity="few">%1$d czaty zarchiwizowane</item>
         <item quantity="many">%1$d czatów zarchiwizowanych</item>
@@ -642,8 +641,6 @@
     <string name="ConversationListFragment_mute">Wycisz</string>
     <string name="ConversationListFragment_unmute">Cofnij wycisz.</string>
     <string name="ConversationListFragment_select">Zaznacz</string>
-    <string name="ConversationListFragment_archive">Archiwizuj</string>
-    <string name="ConversationListFragment_unarchive">Cofnij z arch.</string>
     <string name="ConversationListFragment_delete">Usuń</string>
     <string name="ConversationListFragment_select_all">Zazn. wszystko</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -666,7 +663,6 @@
     <string name="ConversationListItem_key_exchange_message">Wiadomość wymiany kluczy</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Czaty zarchiwizowane (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Zweryfikowano</string>
@@ -3187,7 +3183,6 @@
     <string name="AndroidManifest__message_details">Szczegóły wiadomości</string>
     <string name="AndroidManifest__linked_devices">Połączone urządzenia</string>
     <string name="AndroidManifest__invite_friends">Zaproś znajomych</string>
-    <string name="AndroidManifest_archived_conversations">Zarchiwizowane czaty</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Czy przeczytałeś już nasze FAQ?</string>
@@ -3290,10 +3285,6 @@
     <string name="preferences__sms_mms">SMS i MMS</string>
     <string name="preferences__pref_use_address_book_photos">Użyj zdjęć z kontaktów systemu</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Wyświetl zdjęcia kontaktów z książki telefonicznej, jeśli są dostępne</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Wyciszone czaty pozostają w archiwum</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Wyciszone czaty pozostaną w archiwum, gdy pojawi się nowa wiadomość.</string>
     <string name="preferences__generate_link_previews">Twórz podglądy linków</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Pobieraj podglądy linków we wiadomościach bezpośrednio ze stron internetowych.</string>
     <string name="preferences__change_passphrase">Zmień hasło</string>
@@ -3806,7 +3797,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Zdjęcie kontaktu</string>
-    <string name="conversation_list_item_view__archived">Archiwum</string>
 
 
     <!-- conversation_list_fragment -->

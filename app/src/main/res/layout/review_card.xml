@@ -20,7 +20,6 @@
         app:layout_constraintTop_toTopOf="@id/card_avatar" />
 
 
-    <org.tm.archive.components.AvatarImageView
         android:id="@+id/card_avatar"
         android:layout_width="48dp"
         android:layout_height="48dp"

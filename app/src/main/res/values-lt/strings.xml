@@ -612,7 +612,6 @@
         <item quantity="many">Ištrinami pasirinkti pokalbiai…</item>
         <item quantity="other">Ištrinami pasirinkti pokalbiai…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Pokalbis suarchyvuotas</item>
         <item quantity="few">%1$d pokalbiai suarchyvuoti</item>
         <item quantity="many">%1$d pokalbio suarchyvuota</item>
@@ -642,8 +641,6 @@
     <string name="ConversationListFragment_mute">Nutildyti</string>
     <string name="ConversationListFragment_unmute">Įjungti garsą</string>
     <string name="ConversationListFragment_select">Pasirinkti</string>
-    <string name="ConversationListFragment_archive">Archyvuoti</string>
-    <string name="ConversationListFragment_unarchive">Nebearchyvuoti</string>
     <string name="ConversationListFragment_delete">Ištrinti</string>
     <string name="ConversationListFragment_select_all">Žymėti viską</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -666,7 +663,6 @@
     <string name="ConversationListItem_key_exchange_message">Šifro apsikeitimo žinutė</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Archyvuoti pokalbiai (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Patvirtinta(s)</string>
@@ -3187,7 +3183,6 @@
     <string name="AndroidManifest__message_details">Išsamesnė žinutės informacija</string>
     <string name="AndroidManifest__linked_devices">Susieti įrenginiai</string>
     <string name="AndroidManifest__invite_friends">Pakviesti draugus</string>
-    <string name="AndroidManifest_archived_conversations">Archyvuoti pokalbiai</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Ar jau esate skaitę DUK?</string>
@@ -3290,10 +3285,6 @@
     <string name="preferences__sms_mms">SMS ir MMS</string>
     <string name="preferences__pref_use_address_book_photos">Naudoti adresų knygos nuotraukas</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Jei prieinama, rodyti adresatų nuotraukas iš jūsų adresų knygos</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Laikyti nutildytus pokalbius suarchyvuotus</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Suarchyvuoti nutildyti pokalbiai gavus naują žinutę liks suarchyvuoti.</string>
     <string name="preferences__generate_link_previews">Generuoti nuorodų peržiūras</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Gauti savo siunčiamoms žinutėms nuorodų peržiūras tiesiogiai iš internetinių svetainių.</string>
     <string name="preferences__change_passphrase">Pakeisti slaptafrazę</string>
@@ -3806,7 +3797,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Adresato nuotraukos paveikslas</string>
-    <string name="conversation_list_item_view__archived">Archyvuota</string>
 
 
     <!-- conversation_list_fragment -->

@@ -2,7 +2,6 @@
   ~ Copyright 2023 Signal Messenger, LLC
   ~ SPDX-License-Identifier: AGPL-3.0-only
   -->
-<org.tm.archive.conversation.v2.items.V2ConversationItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -27,7 +26,6 @@
         app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Signal.Circle"
         app:srcCompat="@drawable/symbol_reply_24" />
 
-    <org.tm.archive.components.AvatarImageView
         android:id="@+id/contact_photo"
         android:layout_width="@dimen/conversation_item_avatar_size"
         android:layout_height="@dimen/conversation_item_avatar_size"
@@ -40,7 +38,6 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:visibility="visible" />
 
-    <org.tm.archive.badges.BadgeImageView
         android:id="@+id/badge"
         android:layout_width="16dp"
         android:layout_height="16dp"
@@ -69,7 +66,6 @@
         app:layout_goneMarginStart="16dp"
         tools:background="@color/black">
 
-        <org.tm.archive.components.emoji.EmojiTextView
             android:id="@+id/group_message_sender"
             style="@style/TextAppearance.Signal.Subtitle"
             android:layout_width="0dp"
@@ -124,7 +120,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/conversation_item_quote_stub" />
 
-        <org.tm.archive.components.emoji.EmojiTextView
             android:id="@+id/conversation_item_body"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -184,7 +179,6 @@
         app:layout_goneMarginEnd="@dimen/message_bubble_horizontal_padding"
         tools:text="13:14pm" />
 
-    <org.tm.archive.components.ExpirationTimerView
         android:id="@+id/conversation_item_expiration_timer"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -198,7 +192,6 @@
 
     <!-- Replies Icon -->
     <!-- Reactions -->
-    <org.tm.archive.reactions.ReactionsConversationView
         android:id="@+id/conversation_item_reactions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -209,4 +202,3 @@
         app:layout_constraintTop_toBottomOf="@id/conversation_item_body_wrapper"
         app:rcv_outgoing="false" />
 
-</org.tm.archive.conversation.v2.items.V2ConversationItemLayout>

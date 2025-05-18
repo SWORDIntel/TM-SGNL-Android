@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.tm.archive.components.InsetAwareConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -30,7 +29,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.tm.archive.conversation.colors.ColorizerView
         android:id="@+id/colorizer"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
@@ -179,7 +177,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/navigation_bar_guideline" />
 
-    <org.tm.archive.components.ProgressCard
         android:id="@+id/wallpaper_crop_progress_card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -191,4 +188,3 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible" />
 
-</org.tm.archive.components.InsetAwareConstraintLayout>

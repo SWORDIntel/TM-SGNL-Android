@@ -11,7 +11,6 @@
         android:layout_height="wrap_content"
         app:elevation="0dp"
         app:expanded="false"
-        app:layout_behavior="org.tm.archive.conversationlist.ConversationFilterBehavior">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar"
@@ -19,7 +18,6 @@
             android:layout_height="wrap_content"
             app:layout_scrollFlags="scroll|enterAlwaysCollapsed|exitUntilCollapsed">
 
-            <org.tm.archive.conversationlist.chatfilter.ConversationListFilterPullView
                 android:id="@+id/pull_view"
                 android:layout_width="match_parent"
                 android:layout_height="130dp"
@@ -72,9 +70,7 @@
         android:layout_gravity="bottom"
         android:clipChildren="false"
         android:clipToPadding="false"
-        app:layout_behavior="org.tm.archive.util.views.SlideUpWithSnackbarBehavior">
 
-        <org.tm.archive.components.registration.PulsingFloatingActionButton
             android:id="@+id/fab_shared_element_target"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -91,7 +87,6 @@
             app:srcCompat="@drawable/ic_camera_outline_24"
             app:tint="@color/signal_colorOnSurface" />
 
-        <org.tm.archive.components.registration.PulsingFloatingActionButton
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -109,7 +104,6 @@
 
     </FrameLayout>
 
-    <org.tm.archive.components.menu.SignalBottomActionBar
         android:id="@+id/bottom_action_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

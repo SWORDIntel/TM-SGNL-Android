@@ -12,7 +12,6 @@
         android:layout_gravity="center"
         android:orientation="vertical">
 
-        <org.tm.archive.util.views.DarkOverflowToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="56dp"
@@ -24,7 +23,6 @@
             app:title="@string/AddMembersActivity__add_members"
             app:titleTextAppearance="@style/Signal.Text.Title" />
 
-        <org.tm.archive.components.ContactFilterView
             android:id="@+id/contact_filter_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,13 +35,11 @@
 
         <fragment
             android:id="@+id/contact_selection_list_fragment"
-            android:name="org.tm.archive.ContactSelectionListFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
     </LinearLayout>
 
-    <org.tm.archive.util.views.CircularProgressMaterialButton
         android:id="@+id/done"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

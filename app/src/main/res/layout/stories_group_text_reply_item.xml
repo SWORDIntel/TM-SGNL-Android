@@ -12,7 +12,6 @@
     android:paddingBottom="6dp"
     tools:viewBindingIgnore="true">
 
-    <org.tm.archive.components.AvatarImageView
         android:id="@+id/avatar"
         android:layout_width="28dp"
         android:layout_height="28dp"
@@ -62,7 +61,6 @@
         app:layout_constraintStart_toEndOf="@id/avatar"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.tm.archive.components.FromTextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -77,7 +75,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Miles Morales" />
 
-    <org.tm.archive.components.emoji.EmojiTextView
         android:id="@+id/body"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -133,7 +130,6 @@
         tools:text="Not sent, tap for details"
         tools:textColor="@color/signal_text_secondary" />
 
-    <org.tm.archive.components.DeliveryStatusView
         android:id="@+id/delivery_status"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -144,7 +140,6 @@
         app:layout_constraintBottom_toBottomOf="@+id/viewed_at_bottom_barrier"
         app:layout_constraintStart_toEndOf="@+id/viewed_at_end_barrier" />
 
-    <org.tm.archive.components.AlertView
         android:id="@+id/alert_view"
         android:layout_width="20dp"
         android:layout_height="20dp"
@@ -168,7 +163,6 @@
         app:layout_constraintStart_toEndOf="@+id/bubble_end_barrier"
         app:layout_goneMarginEnd="0dp" />
 
-    <org.tm.archive.components.emoji.EmojiImageView
         android:id="@+id/reaction"
         android:layout_width="28dp"
         android:layout_height="28dp"

@@ -576,7 +576,6 @@
     <plurals name="ConversationListFragment_deleting_selected_conversations">
         <item quantity="other">Padam sembang yang dipilih…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="other">%1$d sembang diarkibkan</item>
     </plurals>
     <string name="ConversationListFragment_undo">Buat Asal</string>
@@ -594,8 +593,6 @@
     <string name="ConversationListFragment_mute">Redamkan</string>
     <string name="ConversationListFragment_unmute">Nyahredam</string>
     <string name="ConversationListFragment_select">Pilih</string>
-    <string name="ConversationListFragment_archive">Arkib</string>
-    <string name="ConversationListFragment_unarchive">Nyaharkib</string>
     <string name="ConversationListFragment_delete">Padam</string>
     <string name="ConversationListFragment_select_all">Pilih semua</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -615,7 +612,6 @@
     <string name="ConversationListItem_key_exchange_message">Mesej pertukaran kunci</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Sembang yang diarkibkan (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Disahkan</string>
@@ -2905,7 +2901,6 @@
     <string name="AndroidManifest__message_details">Butiran mesej</string>
     <string name="AndroidManifest__linked_devices">Peranti dipaut</string>
     <string name="AndroidManifest__invite_friends">Jemput rakan</string>
-    <string name="AndroidManifest_archived_conversations">Sembang Diarkibkan</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Adakah anda sudah membaca Soalan Lazim kami?</string>
@@ -3005,10 +3000,6 @@
     <string name="preferences__sms_mms">SMS dan MMS</string>
     <string name="preferences__pref_use_address_book_photos">Gunakan foto buku alamat</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Paparkan foto kenalan daripada buku alamat anda sekiranya tersedia</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Kekalkan Sembang yang Diredam Diarkibkan</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Sembang yang diredam yang telah diarkibkan akan kekal diarkibkan apabila mesej baru masuk.</string>
     <string name="preferences__generate_link_previews">Hasilkan pratonton pautan</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Dapatkan pratonton pautan terus daripada laman web untuk mesej yang anda hantar.</string>
     <string name="preferences__change_passphrase">Tukar frasa laluan</string>
@@ -3512,7 +3503,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Imej Foto Kenalan</string>
-    <string name="conversation_list_item_view__archived">Diarkib</string>
 
 
     <!-- conversation_list_fragment -->

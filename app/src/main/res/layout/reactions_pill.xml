@@ -12,7 +12,6 @@
     android:paddingEnd="7dp"
     android:gravity="center">
 
-  <org.tm.archive.components.emoji.EmojiImageView
       android:id="@+id/reactions_pill_emoji"
       android:layout_width="17dp"
       android:layout_height="17dp" />

@@ -10,7 +10,6 @@
     tools:viewBindingIgnore="true"
     tools:visibility="visible">
 
-    <org.tm.archive.components.emoji.EmojiTextView
         android:id="@+id/longmessage_text"
         style="@style/Signal.Text.Body"
         android:layout_width="match_parent"
@@ -25,7 +24,6 @@
         app:scaleEmojis="true"
         tools:text="With great power comes great responsibility." />
 
-    <org.tm.archive.components.ConversationItemFooter
         android:id="@+id/longmessage_footer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

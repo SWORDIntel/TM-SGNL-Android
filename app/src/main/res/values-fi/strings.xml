@@ -588,7 +588,6 @@
         <item quantity="one">Poistetaan valittu keskustelu…</item>
         <item quantity="other">Poistetaan valitut keskustelut…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Keskustelu arkistoitu</item>
         <item quantity="other">%1$d keskustelua arkistoitu</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">Mykistä</string>
     <string name="ConversationListFragment_unmute">Poista mykist.</string>
     <string name="ConversationListFragment_select">Valitse</string>
-    <string name="ConversationListFragment_archive">Arkistoi</string>
-    <string name="ConversationListFragment_unarchive">Kumoa arkist.</string>
     <string name="ConversationListFragment_delete">Poista</string>
     <string name="ConversationListFragment_select_all">Valitse kaikki</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">Avaintenvaihtoviesti</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Arkistoidut keskustelut (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Vahvistettu</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">Viestin tiedot</string>
     <string name="AndroidManifest__linked_devices">Yhdistetyt laitteet</string>
     <string name="AndroidManifest__invite_friends">Kutsu ystäviä</string>
-    <string name="AndroidManifest_archived_conversations">Arkistoidut keskustelut</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Oletko tutustunut usein kysyttyihin kysymyksiin?</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">Teksti- ja multimediaviestit</string>
     <string name="preferences__pref_use_address_book_photos">Käytä osoitekirjan valokuvia</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Näytä yhteystietojen valokuvat osoitekirjasta, mikäli saatavilla</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Pidä mykistetyt keskustelut arkistoituina</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Arkistoidut mykistetyt keskustelut pysyvät arkistoituina, kun uusi viesti saapuu.</string>
     <string name="preferences__generate_link_previews">Luo esikatselukuvia linkeistä</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Näytä lähettämiesi linkkien esikatselu verkkosivustoilta.</string>
     <string name="preferences__change_passphrase">Salalauseen vaihto</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Yhteystiedon kuva</string>
-    <string name="conversation_list_item_view__archived">Arkistoitu</string>
 
 
     <!-- conversation_list_fragment -->

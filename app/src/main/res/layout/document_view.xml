@@ -3,7 +3,6 @@
        xmlns:tools="http://schemas.android.com/tools"
     tools:viewBindingIgnore="true"
        xmlns:app="http://schemas.android.com/apk/res-auto"
-       tools:context="org.tm.archive.components.DocumentView">
 
         <LinearLayout android:id="@+id/document_container"
                       android:layout_width="fill_parent"
@@ -13,7 +12,6 @@
                       android:gravity="center_vertical"
                       android:orientation="horizontal">
 
-            <org.tm.archive.components.AnimatingToggle
                     android:id="@+id/control_toggle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -78,7 +76,6 @@
                            android:src="@drawable/download_attachment"
                            android:contentDescription="@string/audio_view__download_accessibility_description"/>
 
-            </org.tm.archive.components.AnimatingToggle>
 
             <LinearLayout android:layout_width="match_parent"
                           android:layout_height="wrap_content"

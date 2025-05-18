@@ -8,7 +8,6 @@
     tools:layout_width="56dp"
     tools:parentTag="android.widget.FrameLayout">
 
-    <org.tm.archive.components.AvatarImageView
         android:id="@+id/avatar_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

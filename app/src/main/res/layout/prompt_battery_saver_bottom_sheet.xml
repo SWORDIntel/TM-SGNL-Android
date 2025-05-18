@@ -35,7 +35,6 @@
         android:text="@string/PromptBatterySaverBottomSheet__title"
         />
 
-    <org.tm.archive.util.views.LearnMoreTextView
         android:id="@+id/message"
         style="@style/Signal.Text.BodyMedium"
         android:layout_width="match_parent"

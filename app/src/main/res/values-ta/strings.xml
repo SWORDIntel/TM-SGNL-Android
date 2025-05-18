@@ -588,7 +588,6 @@
         <item quantity="one">தேர்ந்தெடுத்த சாட்டை அழிக்கிறது…</item>
         <item quantity="other">தேர்ந்தெடுத்த சாட்களை அழிக்கிறது…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">சாட் காப்பகப்படுத்தப்பட்டது</item>
         <item quantity="other">%1$d சாட்கள் காப்பகப்படுத்தப்பட்டன</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">ஒலியடக்கு</string>
     <string name="ConversationListFragment_unmute">ஒலி இயக்கு</string>
     <string name="ConversationListFragment_select">தேர்ந்தெடு</string>
-    <string name="ConversationListFragment_archive">காப்பகம் சேர்</string>
-    <string name="ConversationListFragment_unarchive">வெளிப்படுத்து</string>
     <string name="ConversationListFragment_delete">நீக்கு</string>
     <string name="ConversationListFragment_select_all">எல்லாம்</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">முக்கிய பரிமாற்ற செய்தி</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">காப்பகப்படுத்தப்பட்ட சாட்ஸ் (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">சரிபார்க்கப்பட்டது</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">செய்தி விவரங்கள்</string>
     <string name="AndroidManifest__linked_devices">இணைக்கப்பட்ட சாதனங்கள்</string>
     <string name="AndroidManifest__invite_friends">நண்பர்களை அழை</string>
-    <string name="AndroidManifest_archived_conversations">காப்பகப்படுத்தப்பட்ட சாட்ஸ்</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">எங்களிடம் இதுவரை அடிக்கடி கேட்கப்படும் கேள்விகளை நீங்கள் படித்தீர்களா?</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">SMS மற்றும் MMS</string>
     <string name="preferences__pref_use_address_book_photos">முகவரி புத்தக புகைப்படங்களைப் பயன்படுத்தவும்</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">உங்கள் முகவரி புத்தகத்திலிருந்து தொடர்பு புகைப்படங்கள் இருந்தால் காண்பி</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">ஒலியடக்கிய சாட்களைக் காப்பகப்படுத்துக</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">புதிய மெசேஜ் வரும்போது ஒலியடக்கிய காப்பகப்படுத்தப்பட்ட சாட்கள் காப்பகப்படுத்தப்பட்டதாகவே இருக்கும்.</string>
     <string name="preferences__generate_link_previews">இணைப்பு மாதிரிக்காட்சிகளை உருவாக்கவும்</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">நீங்கள் அனுப்பும் செய்திகளுக்கு வலைத்தளங்களிலிருந்து இணைப்பு முன்னோட்டங்களை நேரடியாக மீட்டெடுக்கவும்.</string>
     <string name="preferences__change_passphrase">கடவுச்சொல்லை மாற்று</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">தொடர்பின் புகைப்படம்</string>
-    <string name="conversation_list_item_view__archived">பெட்டகப்படுத்தப்பட்டது</string>
 
 
     <!-- conversation_list_fragment -->

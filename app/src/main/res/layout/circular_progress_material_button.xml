@@ -2,7 +2,6 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:parentTag="org.tm.archive.util.views.CircularProgressMaterialButton"
     tools:viewBindingIgnore="true">
 
     <com.google.android.material.progressindicator.CircularProgressIndicator

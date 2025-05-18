@@ -8,7 +8,6 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <org.tm.archive.components.AvatarImageView
         android:id="@+id/avatar"
         android:layout_width="112dp"
         android:layout_height="112dp" />

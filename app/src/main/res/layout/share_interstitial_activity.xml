@@ -14,7 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize" />
 
-    <org.tm.archive.components.LinkPreviewView
         android:id="@+id/link_preview"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -27,7 +26,6 @@
         app:linkpreview_type="compose"
         tools:visibility="visible" />
 
-    <org.tm.archive.components.SelectionAwareEmojiEditText
         android:id="@+id/text"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -66,7 +64,6 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:listitem="@layout/share_contact_selection_item" />
 
-    <org.tm.archive.util.views.CircularProgressMaterialButton
         android:id="@+id/share_confirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

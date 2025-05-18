@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.tm.archive.conversationlist.ConversationListItemAction xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:viewBindingIgnore="true"
     android:layout_width="match_parent"
@@ -13,4 +12,3 @@
         android:textAppearance="@style/Signal.Text.LabelLarge"
         tools:text="Archived conversations (2)" />
 
-</org.tm.archive.conversationlist.ConversationListItemAction>

@@ -624,7 +624,6 @@
         <item quantity="many">Comhráite roghnaithe á scriosadh…</item>
         <item quantity="other">Comhráite roghnaithe á scriosadh…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Comhrá curtha sa chartlann</item>
         <item quantity="two">%1$d chomhrá curtha sa chartlann</item>
         <item quantity="few">%1$d chomhrá curtha sa chartlann</item>
@@ -658,8 +657,6 @@
     <string name="ConversationListFragment_mute">Balbhaigh</string>
     <string name="ConversationListFragment_unmute">Díbhalbhaigh</string>
     <string name="ConversationListFragment_select">Roghnaigh</string>
-    <string name="ConversationListFragment_archive">Cartlannú</string>
-    <string name="ConversationListFragment_unarchive">Díchartlannú</string>
     <string name="ConversationListFragment_delete">Scrios</string>
     <string name="ConversationListFragment_select_all">Roghnaigh uile</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -683,7 +680,6 @@
     <string name="ConversationListItem_key_exchange_message">Teachtaireacht malartú eocharacha</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Comhráite sa chartlann (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Fíordheimhnithe</string>
@@ -3281,7 +3277,6 @@
     <string name="AndroidManifest__message_details">Sonraí na teachtaireachta</string>
     <string name="AndroidManifest__linked_devices">Gléasanna nasctha</string>
     <string name="AndroidManifest__invite_friends">Tabhair cuirí do chairde</string>
-    <string name="AndroidManifest_archived_conversations">Comhráite sa Chartlann</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">An bhfuil ár gCeisteanna Coitianta léite agat fós?</string>
@@ -3385,10 +3380,6 @@
     <string name="preferences__sms_mms">SMS agus MMS</string>
     <string name="preferences__pref_use_address_book_photos">Úsáid grianghraif sa leabhar seoltaí</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Taispeáin grianghraif na dteagmhálacha ó do leabhar seoltaí má tá siad ar fáil</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Coinnigh comhráite balbhaithe sa chartlann</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Fanfaidh comhráite balbhaithe sa chartlann fós nuair a thagann teachtaireacht nua isteach.</string>
     <string name="preferences__generate_link_previews">Gin réamhamharcanna ar naisc</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Aisghabh réamhamharcanna ar naisc díreach ó láithreáin gréasáin do na teachtaireachtaí a sheolann tú.</string>
     <string name="preferences__change_passphrase">Athraigh an nath faire</string>
@@ -3904,7 +3895,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Íomha ghrianghraif den teagmhálaí</string>
-    <string name="conversation_list_item_view__archived">Curtha sa chartlann</string>
 
 
     <!-- conversation_list_fragment -->

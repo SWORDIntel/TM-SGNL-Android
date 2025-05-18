@@ -600,7 +600,6 @@
         <item quantity="few">Se șterg conversațiile selectate…</item>
         <item quantity="other">Se șterg conversațiile selectate…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Conversație arhivată</item>
         <item quantity="few">%1$d conversații arhivate</item>
         <item quantity="other">%1$d de conversații arhivate</item>
@@ -626,8 +625,6 @@
     <string name="ConversationListFragment_mute">Silențios</string>
     <string name="ConversationListFragment_unmute">Microfon</string>
     <string name="ConversationListFragment_select">Selectează</string>
-    <string name="ConversationListFragment_archive">Arhivează</string>
-    <string name="ConversationListFragment_unarchive">Dezarhivează</string>
     <string name="ConversationListFragment_delete">Șterge</string>
     <string name="ConversationListFragment_select_all">Selectează tot</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -649,7 +646,6 @@
     <string name="ConversationListItem_key_exchange_message">Mesaj pentru schimbul de chei</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Conversații arhivate (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Verificat</string>
@@ -3093,7 +3089,6 @@
     <string name="AndroidManifest__message_details">Detalii mesaj</string>
     <string name="AndroidManifest__linked_devices">Dispozitive asociate</string>
     <string name="AndroidManifest__invite_friends">Invită prieteni</string>
-    <string name="AndroidManifest_archived_conversations">Conversații arhivate</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Ai citit deja FAQ-ul nostru?</string>
@@ -3195,10 +3190,6 @@
     <string name="preferences__sms_mms">SMS și MMS</string>
     <string name="preferences__pref_use_address_book_photos">Folosește pozele din agendă</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Afișează fotografiile contactelor din agendă dacă sunt disponibile</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Păstrează arhivate conversațiile pe silențios</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Conversațiile pe silențios arhivate vor rămâne arhivate atunci când sosește un mesaj nou.</string>
     <string name="preferences__generate_link_previews">Generează previzualizări ale linkurilor</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Obține previzualizările link-urilor direct de pe site-urile web pentru mesajele pe care le trimiți.</string>
     <string name="preferences__change_passphrase">Schimbă parola</string>
@@ -3708,7 +3699,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Poză Contact</string>
-    <string name="conversation_list_item_view__archived">Arhivat</string>
 
 
     <!-- conversation_list_fragment -->

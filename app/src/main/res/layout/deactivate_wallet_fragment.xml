@@ -27,7 +27,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <org.tm.archive.payments.MoneyView
                 android:id="@+id/deactivate_wallet_fragment_balance"
                 android:layout_width="0dp"
                 android:layout_height="48sp"
@@ -54,7 +53,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/deactivate_wallet_fragment_balance" />
 
-            <org.tm.archive.util.views.LearnMoreTextView
                 android:id="@+id/deactivate_wallet_fragment_notice"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:parentTag="org.tm.archive.components.PaymentPillStrip">
 
     <FrameLayout
         android:id="@+id/button_start_frame"

@@ -612,7 +612,6 @@
         <item quantity="many">Видаляємо вибрані чати…</item>
         <item quantity="other">Видаляємо вибрані чати…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Заархівовано %1$d чат</item>
         <item quantity="few">Заархівовано %1$d чати</item>
         <item quantity="many">Заархівовано %1$d чатів</item>
@@ -642,8 +641,6 @@
     <string name="ConversationListFragment_mute">Не сповіщати</string>
     <string name="ConversationListFragment_unmute">Сповіщати</string>
     <string name="ConversationListFragment_select">Вибрати</string>
-    <string name="ConversationListFragment_archive">Архівувати</string>
-    <string name="ConversationListFragment_unarchive">Розархівувати</string>
     <string name="ConversationListFragment_delete">Видалити</string>
     <string name="ConversationListFragment_select_all">Вибрати все</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -666,7 +663,6 @@
     <string name="ConversationListItem_key_exchange_message">Повідомлення обміну ключам</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Архівні чати (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Підтверджено</string>
@@ -3187,7 +3183,6 @@
     <string name="AndroidManifest__message_details">Деталі повідомлення</string>
     <string name="AndroidManifest__linked_devices">Зв\'язані пристрої</string>
     <string name="AndroidManifest__invite_friends">Запросити друзів</string>
-    <string name="AndroidManifest_archived_conversations">Архівні чати</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Відповіді на поширені запитання.</string>
@@ -3290,10 +3285,6 @@
     <string name="preferences__sms_mms">SMS і MMS</string>
     <string name="preferences__pref_use_address_book_photos">Використовуйте фотографії з адресної книги</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Показувати фотографії контактів з вашої адресної книги, якщо вони доступні</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Залишати стишені чати заархівованими</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Стишені заархівовані чати залишатимуться заархівованими після отримання нового повідомлення.</string>
     <string name="preferences__generate_link_previews">Генерувати посилання попереднього перегляду</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Для надісланих повідомлень отримувати дані попереднього перегляду посилань напряму з веб-сайтів.</string>
     <string name="preferences__change_passphrase">Змінити фразу-пароль</string>
@@ -3806,7 +3797,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Зображення контакту</string>
-    <string name="conversation_list_item_view__archived">Архівовано</string>
 
 
     <!-- conversation_list_fragment -->

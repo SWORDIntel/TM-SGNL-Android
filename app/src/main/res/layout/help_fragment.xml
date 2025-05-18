@@ -94,7 +94,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/help_fragment_category" />
 
-            <org.tm.archive.components.emoji.EmojiImageView
                 android:id="@+id/help_fragment_emoji_5"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
@@ -112,7 +111,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/help_fragment_feelings" />
 
-            <org.tm.archive.components.emoji.EmojiImageView
                 android:id="@+id/help_fragment_emoji_4"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
@@ -127,7 +125,6 @@
                 app:layout_constraintStart_toEndOf="@id/help_fragment_emoji_5"
                 app:layout_constraintTop_toTopOf="@id/help_fragment_emoji_5" />
 
-            <org.tm.archive.components.emoji.EmojiImageView
                 android:id="@+id/help_fragment_emoji_3"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
@@ -142,7 +139,6 @@
                 app:layout_constraintStart_toEndOf="@id/help_fragment_emoji_4"
                 app:layout_constraintTop_toTopOf="@id/help_fragment_emoji_4" />
 
-            <org.tm.archive.components.emoji.EmojiImageView
                 android:id="@+id/help_fragment_emoji_2"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
@@ -157,7 +153,6 @@
                 app:layout_constraintStart_toEndOf="@id/help_fragment_emoji_3"
                 app:layout_constraintTop_toTopOf="@id/help_fragment_emoji_3" />
 
-            <org.tm.archive.components.emoji.EmojiImageView
                 android:id="@+id/help_fragment_emoji_1"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
@@ -222,7 +217,6 @@
         app:layout_constraintEnd_toStartOf="@id/help_fragment_next"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <org.tm.archive.util.views.CircularProgressMaterialButton
         android:id="@+id/help_fragment_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

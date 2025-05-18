@@ -105,7 +105,6 @@
             app:layout_constraintVertical_bias="0.0"
             tools:layout_editor_absoluteX="32dp" />
 
-        <org.tm.archive.util.views.CircularProgressMaterialButton
             android:id="@+id/pin_restore_pin_confirm"
             style="@style/Signal.Widget.Button.Large.Tonal"
             android:layout_width="wrap_content"

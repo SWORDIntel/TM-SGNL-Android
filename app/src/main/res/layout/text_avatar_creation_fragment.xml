@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.tm.archive.components.KeyboardAwareLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:viewBindingIgnore="true"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -11,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <org.tm.archive.util.views.DarkOverflowToolbar
             android:id="@+id/text_avatar_creation_toolbar"
             android:layout_width="match_parent"
             android:layout_height="56dp"
@@ -34,7 +32,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/text_avatar_creation_tabs" />
 
-        <org.tm.archive.components.ControllableTabLayout
             android:id="@+id/text_avatar_creation_tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -59,7 +56,6 @@
                 android:layout_height="match_parent"
                 android:text="@string/TextAvatarCreationFragment__color" />
 
-        </org.tm.archive.components.ControllableTabLayout>
 
         <ScrollView
             android:layout_width="match_parent"
@@ -87,4 +83,3 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</org.tm.archive.components.KeyboardAwareLinearLayout>

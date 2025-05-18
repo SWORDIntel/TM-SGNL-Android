@@ -43,7 +43,6 @@
         app:layout_constraintStart_toEndOf="@id/sticker_management_cover"
         app:layout_constraintTop_toTopOf="parent">
 
-        <org.tm.archive.components.emoji.EmojiTextView
             android:id="@+id/sticker_management_title"
             style="@style/Signal.Text.Body"
             android:layout_width="match_parent"
@@ -52,7 +51,6 @@
             app:emoji_maxLength="45"
             tools:text="Spider-Man" />
 
-        <org.tm.archive.components.emoji.EmojiTextView
             android:id="@+id/sticker_management_author"
             style="@style/Signal.Text.Body"
             android:layout_width="match_parent"

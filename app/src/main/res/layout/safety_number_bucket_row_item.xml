@@ -19,7 +19,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <org.tm.archive.components.emoji.EmojiTextView
             android:id="@+id/safety_number_bucket_header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

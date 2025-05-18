@@ -2,7 +2,6 @@
   ~ Copyright 2023 Signal Messenger, LLC
   ~ SPDX-License-Identifier: AGPL-3.0-only
   -->
-<org.tm.archive.components.webrtc.PendingParticipantsView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/call_screen_pending_recipients"
     android:layout_width="match_parent"

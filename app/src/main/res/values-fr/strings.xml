@@ -588,9 +588,6 @@
         <item quantity="one">Suppression de la conversation sélectionnée…</item>
         <item quantity="other">Suppression des conversations sélectionnées…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
-        <item quantity="one">Conversation archivée</item>
-        <item quantity="other">%1$d conversations archivées</item>
     </plurals>
     <string name="ConversationListFragment_undo">Annuler</string>
     <plurals name="ConversationListFragment_moved_conversations_to_inbox">
@@ -610,8 +607,6 @@
     <string name="ConversationListFragment_mute">Sourdine</string>
     <string name="ConversationListFragment_unmute">Activer son</string>
     <string name="ConversationListFragment_select">Sélectionner</string>
-    <string name="ConversationListFragment_archive">Archiver</string>
-    <string name="ConversationListFragment_unarchive">Désarchiver</string>
     <string name="ConversationListFragment_delete">Supprimer</string>
     <string name="ConversationListFragment_select_all">Tout sélect.</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +627,6 @@
     <string name="ConversationListItem_key_exchange_message">Message d’échange de clés</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Conversations archivées (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Confirmé</string>
@@ -2999,7 +2993,6 @@
     <string name="AndroidManifest__message_details">Détails du message</string>
     <string name="AndroidManifest__linked_devices">Appareils associés</string>
     <string name="AndroidManifest__invite_friends">Inviter des amis</string>
-    <string name="AndroidManifest_archived_conversations">Conversations archivées</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Avez-vous déjà lu notre FAQ ?</string>
@@ -3100,10 +3093,6 @@
     <string name="preferences__sms_mms">Textos et messages multimédias</string>
     <string name="preferences__pref_use_address_book_photos">Utiliser les photos du carnet d’adresses</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Si présentes, afficher les photos des contacts du carnet d’adresses</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Ne pas désarchiver les conversations mises en sourdine</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Les conversations mises en sourdine restent archivées, même lorsque vous recevez un nouveau message.</string>
     <string name="preferences__generate_link_previews">Générer des aperçus de lien</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Pour les messages que vous envoyez, récupérez des aperçus de lien directement des sites Web.</string>
     <string name="preferences__change_passphrase">Changer la phrase de passe</string>
@@ -3610,7 +3599,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Photo du contact</string>
-    <string name="conversation_list_item_view__archived">Archivée</string>
 
 
     <!-- conversation_list_fragment -->

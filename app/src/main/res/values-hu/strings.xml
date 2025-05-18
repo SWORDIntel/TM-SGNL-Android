@@ -588,9 +588,6 @@
         <item quantity="one">A kiválasztott csevegés törlése…</item>
         <item quantity="other">A kiválasztott csevegések törlése…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
-        <item quantity="one">Csevegés archiválva</item>
-        <item quantity="other">%1$d csevegés archiválva</item>
     </plurals>
     <string name="ConversationListFragment_undo">Visszavonás</string>
     <plurals name="ConversationListFragment_moved_conversations_to_inbox">
@@ -610,8 +607,6 @@
     <string name="ConversationListFragment_mute">Némítás</string>
     <string name="ConversationListFragment_unmute">Ném. feloldása</string>
     <string name="ConversationListFragment_select">Kiválasztás</string>
-    <string name="ConversationListFragment_archive">Archiválás</string>
-    <string name="ConversationListFragment_unarchive">Nem archív</string>
     <string name="ConversationListFragment_delete">Törlés</string>
     <string name="ConversationListFragment_select_all">Összes kivál.</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +627,6 @@
     <string name="ConversationListItem_key_exchange_message">Kulcs-csere üzenet</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Archivált csevegések (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Megerősítve</string>
@@ -2999,7 +2993,6 @@
     <string name="AndroidManifest__message_details">Üzenet részletei</string>
     <string name="AndroidManifest__linked_devices">Társított eszközök</string>
     <string name="AndroidManifest__invite_friends">Barátok meghívása</string>
-    <string name="AndroidManifest_archived_conversations">Archivált csevegések</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Láttad már a GYIK-et?</string>
@@ -3100,10 +3093,6 @@
     <string name="preferences__sms_mms">SMS és MMS</string>
     <string name="preferences__pref_use_address_book_photos">Profilképek használata a telefon névjegyzékéből</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">A telefon névjegyzékében tárolt profilképek használata (amennyiben elérhető)</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">A némított csevegések maradjanak archiválva</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Az archivált némított csevegések új üzenet érkezésekor továbbra is archiválva maradnak.</string>
     <string name="preferences__generate_link_previews">Hivatkozások előnézeti képének generálása</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Előnézeti képek lekérése közvetlenül a weboldalról az elküldendő üzenetekhez.</string>
     <string name="preferences__change_passphrase">Jelmondat megváltoztatása</string>
@@ -3610,7 +3599,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Kontakt fotó kép</string>
-    <string name="conversation_list_item_view__archived">Archív</string>
 
 
     <!-- conversation_list_fragment -->

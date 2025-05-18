@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.tm.archive.components.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:viewBindingIgnore="true"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -8,7 +7,6 @@
     android:layout_marginEnd="8dp"
     app:square_height="true">
 
-    <org.tm.archive.components.ThumbnailView
         android:id="@+id/thumbnail"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,4 +14,3 @@
         app:thumbnail_radius="12dp"
         app:transparent_overlay_color="@color/transparent_black_08" />
 
-</org.tm.archive.components.SquareFrameLayout>

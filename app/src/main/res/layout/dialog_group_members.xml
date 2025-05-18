@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <org.tm.archive.groups.ui.GroupMemberListView
         android:id="@+id/list_members"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -588,7 +588,6 @@
         <item quantity="one">Διαγραφή επιλεγμένης συνομιλίας…</item>
         <item quantity="other">Διαγραφή επιλεγμένων συνομιλιών…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Η συνομιλία αρχειοθετήθηκε</item>
         <item quantity="other">%1$d συνομιλίες αρχειοθετήθηκαν</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">Σίγαση</string>
     <string name="ConversationListFragment_unmute">Αποσίγαση</string>
     <string name="ConversationListFragment_select">Επιλέχθηκε</string>
-    <string name="ConversationListFragment_archive">Αρχείο</string>
-    <string name="ConversationListFragment_unarchive">Επαναφορά</string>
     <string name="ConversationListFragment_delete">Διαγραφή</string>
     <string name="ConversationListFragment_select_all">Επιλογή όλων</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">Μήνυμα ανταλλαγής κλειδιού</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Αρχειοθετημένες συνομιλίες (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Επιβεβαιωμένος</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">Λεπτομέρειες μηνύματος</string>
     <string name="AndroidManifest__linked_devices">Συνδεμένες συσκευές</string>
     <string name="AndroidManifest__invite_friends">Πρόσκληση φίλων</string>
-    <string name="AndroidManifest_archived_conversations">Αρχειοθετημένες συνομιλίες</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Έχεις διαβάσει τις Συχνές ερωτήσεις;</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">SMS και MMS</string>
     <string name="preferences__pref_use_address_book_photos">Χρήση φωτογραφιών λίστας επαφών</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Εμφάνιση φωτογραφιών επαφών από τη λίστα επαφών αν είναι διαθέσιμες</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Διατήρηση αρχειοθέτησης συνομιλιών σε σίγαση</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Οι συνομιλίες σε σίγαση που είναι αρχειοθετημένες, θα παραμείνουν σε αρχειοθέτηση όταν λάβεις νέα μηνύματα.</string>
     <string name="preferences__generate_link_previews">Προεπισκόπηση συνδέσμων</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Λάβε προεπισκόπεις συνδέσμων απ\' ευθείας από σελίδες για τα μηνύματα που στέλνεις.</string>
     <string name="preferences__change_passphrase">Αλλαγή συνθηματικού</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Φωτογραφία επαφής</string>
-    <string name="conversation_list_item_view__archived">Αρχειοθετημένα</string>
 
 
     <!-- conversation_list_fragment -->

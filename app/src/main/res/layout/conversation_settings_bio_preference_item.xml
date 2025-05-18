@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <org.tm.archive.components.emoji.EmojiTextView
         android:id="@+id/bio_preference_headline"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -20,7 +19,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Miles Morales" />
 
-    <org.tm.archive.components.emoji.EmojiTextView
         android:id="@+id/bio_preference_subhead_1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -36,7 +34,6 @@
         app:layout_constraintTop_toBottomOf="@id/bio_preference_headline"
         tools:text=":-) Just hanging around." />
 
-    <org.tm.archive.components.emoji.EmojiTextView
         android:id="@+id/bio_preference_subhead_2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

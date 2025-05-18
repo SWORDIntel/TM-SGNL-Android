@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.tm.archive.conversation.ConversationUpdateItem
     xmlns:android="http://schemas.android.com/apk/res/android"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -24,7 +23,6 @@
         android:paddingStart="16dp"
         android:paddingEnd="16dp">
 
-        <org.tm.archive.components.emoji.EmojiTextView
             android:id="@+id/conversation_update_body"
             style="@style/Signal.Text.BodySmall"
             android:layout_width="wrap_content"
@@ -45,4 +43,3 @@
 
     </LinearLayout>
 
-</org.tm.archive.conversation.ConversationUpdateItem>

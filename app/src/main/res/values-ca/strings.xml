@@ -588,7 +588,6 @@
         <item quantity="one">Eliminant el xat seleccionat…</item>
         <item quantity="other">Eliminant els xats seleccionats…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Xat arxivat</item>
         <item quantity="other">%1$d xats arxivats</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">Silenciat</string>
     <string name="ConversationListFragment_unmute">No silenciats</string>
     <string name="ConversationListFragment_select">Seleccionar</string>
-    <string name="ConversationListFragment_archive">Arxiva</string>
-    <string name="ConversationListFragment_unarchive">Restaura</string>
     <string name="ConversationListFragment_delete">Eliminar</string>
     <string name="ConversationListFragment_select_all">Selecciona tot</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">Missatge d\'intercanvi de clau</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Xats arxivats (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Verificat</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">Detalls del missatge</string>
     <string name="AndroidManifest__linked_devices">Dispositius enllaçats</string>
     <string name="AndroidManifest__invite_friends">Convideu-hi amistats</string>
-    <string name="AndroidManifest_archived_conversations">Xats arxivats</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Encara no heu llegit les PMF?</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">SMS i MMS</string>
     <string name="preferences__pref_use_address_book_photos">Usa les fotos de l\'agenda de contactes</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Mostra les fotos dels contactes de l\'agenda si estan disponibles</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Mantenir arxivats els xats silenciats</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Els xats silenciats que estiguin arxivats romandran arxivats quan arribi un missatge nou.</string>
     <string name="preferences__generate_link_previews">Genera previsualitzacions d\'enllaç</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Recupereu les previsualitzacions d’enllaços directament des de qualsevol lloc web per als missatges que envieu.</string>
     <string name="preferences__change_passphrase">Canvia la contrasenya</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Fotografia del contacte</string>
-    <string name="conversation_list_item_view__archived">Arxivat</string>
 
 
     <!-- conversation_list_fragment -->

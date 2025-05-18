@@ -6,7 +6,6 @@
     android:layout_height="wrap_content"
     android:background="@color/voice_note_player_view_background">
 
-    <org.tm.archive.components.voice.VoiceNotePlayerView
         android:id="@+id/voice_note_player_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

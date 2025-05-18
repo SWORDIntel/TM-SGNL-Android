@@ -89,7 +89,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <org.tm.archive.util.views.CircularProgressMaterialButton
             android:id="@+id/restore_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

@@ -82,7 +82,6 @@ public class EditProxyFragment extends Fragment {
 
     LearnMoreTextView description = view.findViewById(R.id.edit_proxy_switch_title_description);
     description.setLearnMoreVisible(true);
-    description.setOnLinkClickListener(v -> CommunicationActions.openBrowserLink(requireContext(), "https://www.telemessage.com/faqs/")); //**TM_SA**// change the link
 
     requireActivity().getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
   }

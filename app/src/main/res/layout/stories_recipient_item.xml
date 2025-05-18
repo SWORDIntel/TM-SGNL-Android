@@ -13,7 +13,6 @@
     android:paddingEnd="@dimen/dsl_settings_gutter"
     android:paddingBottom="8dp">
 
-    <org.tm.archive.components.AvatarImageView
         android:id="@+id/recipient_view_avatar"
         android:layout_width="40dp"
         android:layout_height="40dp"
@@ -24,7 +23,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@tools:sample/avatars" />
 
-    <org.tm.archive.components.emoji.EmojiTextView
         android:id="@+id/recipient_view_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

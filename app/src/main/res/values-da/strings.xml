@@ -588,7 +588,6 @@
         <item quantity="one">Sletter den valgte chat…</item>
         <item quantity="other">Sletter de valgte chats…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Chat arkiveret</item>
         <item quantity="other">%1$d chats arkiveret</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">Ignorer</string>
     <string name="ConversationListFragment_unmute">Ignorer ikke</string>
     <string name="ConversationListFragment_select">Vælg</string>
-    <string name="ConversationListFragment_archive">Arkivér</string>
-    <string name="ConversationListFragment_unarchive">Flyt fra arkiv</string>
     <string name="ConversationListFragment_delete">Slet</string>
     <string name="ConversationListFragment_select_all">Vælg alle</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">Nøgleudvekslingsbesked</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Arkiverede chats (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Verificeret</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">Beskeddetaljer</string>
     <string name="AndroidManifest__linked_devices">Forbundne enheder</string>
     <string name="AndroidManifest__invite_friends">Inviter venner</string>
-    <string name="AndroidManifest_archived_conversations">Arkiverede chats</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Har du læst vores svar på ofte stillede spørgsmål?</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">SMS og MMS</string>
     <string name="preferences__pref_use_address_book_photos">Brug billeder fra adressebog</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Vis kontaktbilleder fra din adressebog, hvis de er tilgængelige.</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Lad ignorerede chats forblive arkiverede</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Ignorerede chats, der er arkiveret, forbliver arkiverede, når der kommer en ny besked.</string>
     <string name="preferences__generate_link_previews">Generér forhåndsvisninger af links</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Hent forhåndsvisninger direkte fra websteder for links, du sender i beskeder.</string>
     <string name="preferences__change_passphrase">Skift adgangssætning</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Kontaktbillede</string>
-    <string name="conversation_list_item_view__archived">Arkiveret</string>
 
 
     <!-- conversation_list_fragment -->

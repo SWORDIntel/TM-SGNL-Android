@@ -114,7 +114,6 @@
                         android:textColor="@color/signal_text_primary"
                         tools:text="Plurized string for invited members." />
 
-                    <org.tm.archive.groups.ui.GroupMemberListView
                         android:id="@+id/gv1_migrate_invite_list"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -155,7 +154,6 @@
                         android:textColor="@color/signal_text_primary"
                         tools:text="Plurized string for ineligible members." />
 
-                    <org.tm.archive.groups.ui.GroupMemberListView
                         android:id="@+id/gv1_migrate_ineligible_list"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

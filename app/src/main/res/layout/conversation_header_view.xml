@@ -6,7 +6,6 @@
     android:layout_height="wrap_content"
     tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
 
-    <org.tm.archive.components.AvatarImageView
         android:id="@+id/message_request_avatar"
         android:layout_width="80dp"
         android:layout_height="80dp"
@@ -16,7 +15,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
-    <org.tm.archive.badges.BadgeImageView
         android:id="@+id/message_request_badge"
         android:layout_width="36dp"
         android:layout_height="36dp"
@@ -57,7 +55,6 @@
 
     </LinearLayout>
 
-    <org.tm.archive.components.emoji.EmojiTextView
         android:id="@+id/message_request_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -73,7 +70,6 @@
         app:layout_constraintTop_toBottomOf="@id/message_request_avatar"
         tools:text="Cayce Pollard" />
 
-    <org.tm.archive.components.emoji.EmojiTextView
         android:id="@+id/message_request_about"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -133,7 +129,6 @@
             tools:drawableStartCompat="@drawable/symbol_person_24"
             tools:text="\@caycepollard" />
 
-        <org.tm.archive.components.emoji.EmojiTextView
             android:id="@+id/message_request_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

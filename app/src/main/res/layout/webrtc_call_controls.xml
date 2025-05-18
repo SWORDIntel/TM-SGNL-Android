@@ -45,7 +45,6 @@
             android:layout_marginTop="38dp"
             android:paddingBottom="48dp">
 
-            <org.tm.archive.components.webrtc.WebRtcAudioOutputToggleButton
                 android:id="@+id/call_screen_speaker_toggle"
                 android:layout_width="@dimen/webrtc_button_size"
                 android:layout_height="@dimen/webrtc_button_size"
@@ -62,7 +61,6 @@
                 app:srcCompat="@drawable/webrtc_call_screen_speaker_toggle"
                 tools:visibility="visible" />
 
-            <org.tm.archive.components.AccessibleToggleButton
                 android:id="@+id/call_screen_video_toggle"
                 style="@style/WebRtcCallV2CompoundButton"
                 android:layout_marginStart="8dp"
@@ -77,7 +75,6 @@
                 app:layout_constraintStart_toEndOf="@id/call_screen_speaker_toggle"
                 tools:checked="true" />
 
-            <org.tm.archive.components.AccessibleToggleButton
                 android:id="@+id/call_screen_audio_mic_toggle"
                 style="@style/WebRtcCallV2CompoundButton"
                 android:layout_marginStart="8dp"
@@ -91,7 +88,6 @@
                 app:layout_constraintHorizontal_chainStyle="packed"
                 app:layout_constraintStart_toEndOf="@id/call_screen_video_toggle" />
 
-            <org.tm.archive.components.AccessibleToggleButton
                 android:id="@+id/call_screen_audio_ring_toggle"
                 style="@style/WebRtcCallV2CompoundButton"
                 android:layout_marginStart="8dp"

@@ -588,7 +588,6 @@
         <item quantity="one">Duke fshirë bisedën e zgjedhur…</item>
         <item quantity="other">Duke fshirë bisedat e zgjedhura…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Biseda u arkivua</item>
         <item quantity="other">%1$d bisedat u arkivuan</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">Hiqi zërin</string>
     <string name="ConversationListFragment_unmute">Ktheja zërin</string>
     <string name="ConversationListFragment_select">Përzgjidh</string>
-    <string name="ConversationListFragment_archive">Arkivo</string>
-    <string name="ConversationListFragment_unarchive">Çarkivoje</string>
     <string name="ConversationListFragment_delete">Fshiji</string>
     <string name="ConversationListFragment_select_all">Përzgjidh të gjitha</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">Mesazh shkëmbimi kyçesh</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Bisedat e arkivuara (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Verifiikuar</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">Hollësi mesazhi</string>
     <string name="AndroidManifest__linked_devices">Pajisje të lidhura</string>
     <string name="AndroidManifest__invite_friends">Ftoni shokë</string>
-    <string name="AndroidManifest_archived_conversations">Bisedat e arkivuara</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">A i keni lexuar PBR tonat?</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">SMS dhe MMS</string>
     <string name="preferences__pref_use_address_book_photos">Përdor foto libri adresash</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Shfaqni foto kontaktesh prej librit tuaj të adresave, në pastë</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Mbaj të arkivuara bisedat pa zë</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Bisedat e arkivuara pa zë do të mbeten të tilla, edhe kur të vijë mesazh i ri.</string>
     <string name="preferences__generate_link_previews">Prodho lidhje për paraparje</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Merrni, për mesazhet që dërgoni, paraparje lidhjesh drejt e nga sajtet.</string>
     <string name="preferences__change_passphrase">Ndryshoje frazëkalimin</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Foto Kontakti</string>
-    <string name="conversation_list_item_view__archived">Të arkivuar</string>
 
 
     <!-- conversation_list_fragment -->

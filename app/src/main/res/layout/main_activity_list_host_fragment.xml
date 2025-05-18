@@ -13,7 +13,6 @@
         android:background="@color/signal_colorBackground"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.tm.archive.util.views.DarkOverflowToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/signal_m3_toolbar_height"
@@ -28,7 +27,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <org.tm.archive.components.AvatarImageView
                 android:id="@+id/toolbar_icon"
                 android:layout_width="@dimen/toolbar_avatar_size"
                 android:layout_height="@dimen/toolbar_avatar_size"
@@ -40,7 +38,6 @@
                 app:layout_constraintTop_toTopOf="parent"
                 tools:src="@tools:sample/avatars" />
 
-            <org.tm.archive.badges.BadgeImageView
                 android:id="@+id/toolbar_badge"
                 android:layout_width="16dp"
                 android:layout_height="16dp"
@@ -128,14 +125,12 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </org.tm.archive.util.views.DarkOverflowToolbar>
 
     <ViewStub
         android:id="@+id/toolbar_basic_stub"
         android:layout_width="match_parent"
         android:layout_height="@dimen/signal_m3_toolbar_height"
         android:inflatedId="@+id/toolbar_basic"
-        android:layout="@layout/conversation_list_archive_toolbar"
         android:minHeight="@dimen/signal_m3_toolbar_height"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -576,7 +576,6 @@
     <plurals name="ConversationListFragment_deleting_selected_conversations">
         <item quantity="other">កំពុងលុបការជជែកដែលបានជ្រើសរើស…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="other">ការជជែក %1$d ត្រូវបានទុកក្នុងបណ្ណសារ</item>
     </plurals>
     <string name="ConversationListFragment_undo">មិនធ្វើវិញ</string>
@@ -594,8 +593,6 @@
     <string name="ConversationListFragment_mute">បិទសំឡេង</string>
     <string name="ConversationListFragment_unmute">បើកសំឡេង</string>
     <string name="ConversationListFragment_select">ជ្រើសរើស</string>
-    <string name="ConversationListFragment_archive">ទុកនៅបណ្ណសារ</string>
-    <string name="ConversationListFragment_unarchive">លុបពីបណ្ណសារ</string>
     <string name="ConversationListFragment_delete">លុប</string>
     <string name="ConversationListFragment_select_all">រើសយកទាំងអស់</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -615,7 +612,6 @@
     <string name="ConversationListItem_key_exchange_message">សារផ្លាស់ប្តូរសោរ</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">ការជជែកដែលបានទុកក្នុងបណ្ណសារ (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">បានផ្ទៀងផ្ទាត់</string>
@@ -2905,7 +2901,6 @@
     <string name="AndroidManifest__message_details">សារលម្អិត</string>
     <string name="AndroidManifest__linked_devices">ភ្ជាប់ឧបករណ៍</string>
     <string name="AndroidManifest__invite_friends">អញ្ជើញមិត្តភក្តិ</string>
-    <string name="AndroidManifest_archived_conversations">ការជជែកដែលបានទុកក្នុងបណ្ណសារ</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">តើអ្នកបានអាចសំណួរដែលសួរញឹកញាប់ហើយឬនៅ?</string>
@@ -3005,10 +3000,6 @@
     <string name="preferences__sms_mms">SMS និង MMS</string>
     <string name="preferences__pref_use_address_book_photos">ប្រើប្រាស់រូបភាពសៀវភៅអាសយដ្ឋាន</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">បង្ហាញរូបភាពលេខទំនាក់ទំនងចេញពីសៀវភៅអាសយដ្ឋានរបស់អ្នក ប្រសិនបើមាន</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">បន្តទុកក្នុងបណ្ណសារនូវការជជែកដែលបិទសំឡេង</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">ការជជែកដែលបានបិទសំឡេងដែលត្រូវបានទុកក្នុងបណ្ណសារនឹងនៅតែរក្សាទុកក្នុងបណ្ណសារដដែល នៅពេលសារថ្មីមកដល់។</string>
     <string name="preferences__generate_link_previews">បង្កើតការមើលមុនតំណភ្ជាប់</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">ទាញយកតំណភ្ជាប់មើលមុន ដោយផ្ទាល់ពីគេហទំព័រ សម្រាប់សារដែលអ្នកផ្ញើ។</string>
     <string name="preferences__change_passphrase">ផ្លាស់ប្តូរឃ្លាសម្ងាត់</string>
@@ -3512,7 +3503,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">រូបថតទំនាក់ទំនង</string>
-    <string name="conversation_list_item_view__archived">បានដាក់ទុកបណ្ណសារ</string>
 
 
     <!-- conversation_list_fragment -->

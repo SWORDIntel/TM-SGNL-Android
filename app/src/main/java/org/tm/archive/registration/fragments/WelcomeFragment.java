@@ -258,7 +258,6 @@ public final class WelcomeFragment extends LoggingFragment {
   }
 
   private void onTermsClicked() {
-    CommunicationActions.openBrowserLink(requireContext(), requireContext().getString(R.string.telemessage_privacy_url)/*TM_SA RegistrationConstants.TERMS_AND_CONDITIONS_URL*/);
   }
 
 

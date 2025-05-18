@@ -588,7 +588,6 @@
         <item quantity="one">Excluir chat selecionado…</item>
         <item quantity="other">Excluir chats selecionados…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">Chat arquivado</item>
         <item quantity="other">%1$d chats arquivados</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">Silenciar</string>
     <string name="ConversationListFragment_unmute">Reativar</string>
     <string name="ConversationListFragment_select">Marcar</string>
-    <string name="ConversationListFragment_archive">Arquivar</string>
-    <string name="ConversationListFragment_unarchive">Desarquivar</string>
     <string name="ConversationListFragment_delete">Excluir</string>
     <string name="ConversationListFragment_select_all">Marcar todas</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">Mensagem de troca de chaves</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Chats arquivados (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Verificado</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">Detalhes da mensagem</string>
     <string name="AndroidManifest__linked_devices">Dispositivos vinculados</string>
     <string name="AndroidManifest__invite_friends">Convidar amigos</string>
-    <string name="AndroidManifest_archived_conversations">Chats arquivados</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">Você já leu nosso FAQ?</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">SMS e MMS</string>
     <string name="preferences__pref_use_address_book_photos">Usar fotos da lista de contatos do aparelho</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Exibir fotos de contatos oriundas da lista de contatos do aparelho, se disponíveis</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Manter os chats silenciados arquivados</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Chats silenciados que estão arquivados permanecerão arquivados quando uma nova mensagem chegar.</string>
     <string name="preferences__generate_link_previews">Gerar pré-visualização de links</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Carregar pré-visualizações de links diretamente dos sites em mensagens que você envia.</string>
     <string name="preferences__change_passphrase">Alterar frase-chave</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Imagem do contato</string>
-    <string name="conversation_list_item_view__archived">Arquivado</string>
 
 
     <!-- conversation_list_fragment -->

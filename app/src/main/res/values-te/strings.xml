@@ -588,7 +588,6 @@
         <item quantity="one">ఎంపిక చేసిన చాట్‌ను తొలగిస్తోంది…</item>
         <item quantity="other">ఎంపిక చేసిన చాట్‌లను తొలగిస్తోంది…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">చాట్ ఆర్కైవ్ చేయబడింది</item>
         <item quantity="other">%1$d చాట్‌లు ఆర్కైవ్ చేయబడ్డాయి</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">మ్యూట్</string>
     <string name="ConversationListFragment_unmute">అన్‌మ్యూట్</string>
     <string name="ConversationListFragment_select">ఎంచుకోండి</string>
-    <string name="ConversationListFragment_archive">ఆర్కైవ్</string>
-    <string name="ConversationListFragment_unarchive">అన్ఆర్కైవ్</string>
     <string name="ConversationListFragment_delete">తొలగించండి</string>
     <string name="ConversationListFragment_select_all">అన్నిటిని ఎంచుకోండి</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">కీ సందేశం మార్పిడి</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">ఆర్కైవ్ చేయబడ్డ చాట్‌లు (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">ధృవీకరించబడింది</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">సందేశం వివరాలు</string>
     <string name="AndroidManifest__linked_devices">బంధించిన పరికరాలు</string>
     <string name="AndroidManifest__invite_friends">స్నేహితులను ఆహ్వానించండి</string>
-    <string name="AndroidManifest_archived_conversations">ఆర్కైవ్ చేసిన చాట్‌లు</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">మీరు మా తరచుగా అడిగే ప్రశ్నలు చదివారా?</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">ఎస్సెమ్మెస్ మరియు ఎమ్మెమ్మెస్</string>
     <string name="preferences__pref_use_address_book_photos">చిరునామా పుస్తక చిత్రాలను ఉపయోగించండి</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">అందుబాటులో ఉంటే మీ చిరునామా పుస్తకం నుండి సంప్రదింపు చిత్రాలను ప్రదర్శించండి</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">మ్యూట్ చేయబడిన చాట్‌లను ఆర్కైవ్ చేయండి</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">ఆర్కైవ్ చేయబడిన మ్యూటెడ్ చాట్‌లు, కొత్త సందేశం వచ్చినప్పుడు ఆర్కైవ్ చేయబడి ఉంటాయి.</string>
     <string name="preferences__generate_link_previews">లింక్ పూర్వప్రదర్శన రూపొందించండి</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">మీరు పంపే సందేశాల కోసం వెబ్‌సైట్ల నుండి నేరుగా లింక్ పూర్వప్రదర్శనలు తిరిగి పొందండి.</string>
     <string name="preferences__change_passphrase">సంకేతపదమును మార్చు</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">పరిచయ ఫొటొ చిత్రం</string>
-    <string name="conversation_list_item_view__archived">భద్రపరచబడినది</string>
 
 
     <!-- conversation_list_fragment -->

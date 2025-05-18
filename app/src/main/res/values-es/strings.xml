@@ -342,11 +342,9 @@
     <string name="ConversationItem__join_call">Unirse a la llamada</string>
 
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Añadir archivo adjunto</string>
     <!-- Accessibility text associated with image button to send an edited message. -->
     <string name="ConversationActivity_send_edit">Enviar versión editada</string>
     <string name="ConversationActivity_compose_message">Redactar mensaje</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Lo sentimos, ha habido un fallo al adjuntar el archivo.</string>
     <string name="ConversationActivity_recipient_is_not_a_valid_sms_or_email_address_exclamation">¡Esta persona no tiene un número que pueda recibir SMS o un correo válido!</string>
     <string name="ConversationActivity_message_is_empty_exclamation">¡El mensaje está vacío!</string>
     <string name="ConversationActivity_group_members">Participantes del grupo</string>
@@ -455,21 +453,13 @@
     </plurals>
     <string name="ConversationFragment_save_to_sd_card">¿Guardar?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
-        <item quantity="one">Guardar el archivo en el almacenamiento del teléfono permitirá que cualquier otra aplicación en tu dispositivo acceda a él.\n\n¿Continuar?</item>
-        <item quantity="other">Guardar los %1$d archivos en el almacenamiento del teléfono permitirá que cualquier otra aplicación en tu dispositivo acceda a ellos.\n\n¿Continuar?</item>
     </plurals>
     <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">¡Fallo al guardar el archivo adjunto!</item>
-        <item quantity="other">¡Fallo al guardar los archivos adjuntos!</item>
     </plurals>
     <string name="ConversationFragment_unable_to_write_to_sd_card_exclamation">¡No se pudo guardar en el almacenamiento!</string>
     <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">Guardando el archivo adjunto</item>
-        <item quantity="other">Guardando %1$d archivos adjuntos</item>
     </plurals>
     <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
-        <item quantity="one">Guardando el archivo adjunto…</item>
-        <item quantity="other">Guardando %1$d archivos adjuntos…</item>
     </plurals>
     <string name="ConversationFragment_pending">Pendiente …</string>
     <string name="ConversationFragment_push">Datos (Signal)</string>
@@ -489,7 +479,6 @@
     <string name="ConversationFragment_failed_to_open_message">Fallo al abrir mensaje</string>
     <string name="ConversationFragment_you_can_swipe_to_the_right_reply">Puedes deslizar hacia la derecha sobre cualquier mensaje para responder rápidamente</string>
     <string name="ConversationFragment_you_can_swipe_to_the_left_reply">Puedes deslizar hacia la izquierda sobre cualquier mensaje para responder rápidamente</string>
-    <string name="ConversationFragment_view_once_media_is_deleted_after_sending">Los archivos multimedia para ver solo una vez se eliminan después de ser enviados</string>
     <string name="ConversationFragment_you_already_viewed_this_message">Ya has visto este mensaje</string>
     <string name="ConversationFragment__you_can_add_notes_for_yourself_in_this_conversation">En este chat puedes añadir notas, mensajes personales, fotos… que solo tú puedes ver. Si tu cuenta tiene dispositivos enlazados, el contenido nuevo se sincronizará.</string>
     <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d participantes usan el mismo nombre.</string>
@@ -588,9 +577,6 @@
         <item quantity="one">Eliminando chat seleccionado…</item>
         <item quantity="other">Eliminando chats seleccionados…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
-        <item quantity="one">Chat archivado</item>
-        <item quantity="other">%1$d chats archivados</item>
     </plurals>
     <string name="ConversationListFragment_undo">Deshacer</string>
     <plurals name="ConversationListFragment_moved_conversations_to_inbox">
@@ -610,8 +596,6 @@
     <string name="ConversationListFragment_mute">Silenciar</string>
     <string name="ConversationListFragment_unmute">No silenciar</string>
     <string name="ConversationListFragment_select">Seleccionar</string>
-    <string name="ConversationListFragment_archive">Archivar</string>
-    <string name="ConversationListFragment_unarchive">Desarchivar</string>
     <string name="ConversationListFragment_delete">Eliminar</string>
     <string name="ConversationListFragment_select_all">Seleccionarlos</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +616,6 @@
     <string name="ConversationListItem_key_exchange_message">Mensaje de intercambio de claves</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">Chats archivados (%1$d)</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">Identidad verificada</string>
@@ -681,7 +664,6 @@
     <string name="ChooseBackupFragment__icon_content_description">Símbolo de restaurar desde copia de seguridad</string>
     <string name="ChooseBackupFragment__choose_backup">Selecciona copia</string>
     <string name="ChooseBackupFragment__learn_more">Saber más</string>
-    <string name="ChooseBackupFragment__no_file_browser_available">Navegador de archivos no disponible</string>
 
     <!-- RestoreBackupFragment -->
     <string name="RestoreBackupFragment__restore_complete">Recuperación completada</string>
@@ -1248,8 +1230,6 @@
         <item quantity="other">¿Eliminar elementos seleccionados?</item>
     </plurals>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Se eliminará permanentemente el archivo seleccionado. Todos los mensajes asociados con este archivo también se eliminarán.</item>
-        <item quantity="other">Se eliminarán permanentemente los %1$d archivos seleccionados. Todos los mensajes asociados con estos archivos también se eliminarán.</item>
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Eliminar</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Eliminando mensajes …</string>
@@ -2398,11 +2378,9 @@
     <string name="MediaPreviewActivity_s_to_you">De %1$s para ti</string>
     <string name="MediaPreviewActivity_media_no_longer_available">El adjunto original ya no está disponible.</string>
     <!-- Notifying the user that the device has encountered a technical issue and is unable to render a video. -->
-    <string name="MediaPreviewActivity_unable_to_play_media">No se ha podido reproducir el archivo.</string>
     <string name="MediaPreviewActivity_error_finding_message">Error al encontrar el mensaje.</string>
     <string name="MediaPreviewActivity_cant_find_an_app_able_to_share_this_media">Fallo al encontrar la aplicación para mostrar este adjunto.</string>
     <string name="MediaPreviewActivity_dismiss_due_to_error">Cerrar</string>
-    <string name="MediaPreviewFragment_edit_media_error">Error de archivos</string>
     <!-- This is displayed as a toast notification when we encounter an error deleting a message, including potentially on other people\'s devices -->
     <string name="MediaPreviewFragment_media_delete_error">Error al borrar el mensaje, es posible que el mensaje aún exista</string>
     <!-- A suffix to be attached to truncated captions that the user may tap onto to view the entire text caption -->
@@ -2445,9 +2423,7 @@
     <string name="MessageNotifier_reacted_s_to_your_video">Reacción a tu vídeo: %1$s.</string>
     <string name="MessageNotifier_reacted_s_to_your_image">Reacción a tu foto: %1$s.</string>
     <string name="MessageNotifier_reacted_s_to_your_gif">Reacción a tu GIF: %1$s.</string>
-    <string name="MessageNotifier_reacted_s_to_your_file">Reacción a tu archivo: %1$s.</string>
     <string name="MessageNotifier_reacted_s_to_your_audio">Reacción a tu audio: %1$s.</string>
-    <string name="MessageNotifier_reacted_s_to_your_view_once_media">Reacción a tu archivo multimedia para ver una vez: %1$s.</string>
     <!-- Body of notification shown to user when someone they sent a payment to reacts to it. Placeholder is the emoji used in the reaction. -->
     <string name="MessageNotifier_reacted_s_to_your_payment">Ha reaccionado con %1$s a tu pago.</string>
     <string name="MessageNotifier_reacted_s_to_your_sticker">Reacción a tu sticker: %1$s.</string>
@@ -2999,7 +2975,6 @@
     <string name="AndroidManifest__message_details">Detalles del mensaje</string>
     <string name="AndroidManifest__linked_devices">Dispositivos enlazados</string>
     <string name="AndroidManifest__invite_friends">Invitar personas</string>
-    <string name="AndroidManifest_archived_conversations">Chats archivados</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">¿Ya has leído nuestras FAQ?</string>
@@ -3100,10 +3075,6 @@
     <string name="preferences__sms_mms">SMS y MMS</string>
     <string name="preferences__pref_use_address_book_photos">Usar fotos de la libreta de contactos de Android</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">Mostrar fotos de la libreta de contactos de Android, si están disponibles</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">Dejar archivados los chats silenciados</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">Los chats silenciados archivados permanecerán archivados aunque recibas un nuevo mensaje.</string>
     <string name="preferences__generate_link_previews">Generar vista previa de enlaces</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">Esta opción trasmite la vista previa de los enlaces en los mensajes que envíes. La imagen de la vista previa se descarga directamente desde la página web correspondiente generando una visita (adicional) a esa página web desde tu dispositivo.</string>
     <string name="preferences__change_passphrase">Cambiar clave de acceso</string>
@@ -3405,7 +3376,6 @@
     <!-- Storage permission row title -->
     <string name="GrantPermissionsFragment__storage">Almacenamiento</string>
     <!-- Storage permission row description -->
-    <string name="GrantPermissionsFragment__send_photos_videos_and_files">Envía fotos, vídeos y archivos desde tu dispositivo.</string>
 
     <!-- PaymentsSecuritySetupFragment -->
     <!-- Toolbar title -->
@@ -3610,7 +3580,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">Foto de contacto</string>
-    <string name="conversation_list_item_view__archived">Archivado</string>
 
 
     <!-- conversation_list_fragment -->
@@ -3862,7 +3831,6 @@
     <string name="BackupDialog_to_enable_backups_choose_a_folder">Selecciona una carpeta para activar las copias de seguridad. Las copias se guardarán en esta carpeta.</string>
     <string name="BackupDialog_choose_folder">Seleccionar carpeta</string>
     <string name="BackupDialog_copied_to_clipboard">Copiado al portapapeles</string>
-    <string name="BackupDialog_no_file_picker_available">Aplicación de archivos no disponible.</string>
     <string name="BackupDialog_enter_backup_passphrase_to_verify">Introduce la clave de la copia de seguridad para verificar</string>
     <string name="BackupDialog_verify">Verificar</string>
     <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">La clave es correcta</string>
@@ -3877,7 +3845,6 @@
     <!-- Error message shown if a newly created backup could not be verified as accurate -->
     <string name="LocalBackupJobApi29_your_backup_could_not_be_verified">Tu copia de seguridad más reciente no pudo ser creada ni verificada. Por favor, crea una nueva.</string>
     <!-- Error message shown if a very large attachment is encountered during the backup creation and causes the backup to fail -->
-    <string name="LocalBackupJobApi29_your_backup_contains_a_very_large_file">Tu copia de seguridad contiene un archivo muy grande que no puede ser copiado. Por favor, bórralo y crea una nueva copia de seguridad.</string>
     <string name="LocalBackupJobApi29_tap_to_manage_backups">Toca para gestionar las copias.</string>
     <string name="RegistrationActivity_wrong_number">¿Número erróneo?</string>
     <!--    Countdown to when the user can request a new code via phone call during registration.-->
@@ -4441,7 +4408,6 @@
     <!-- Part of requesting account data flow, this is the section title for requesting that account data -->
     <string name="ExportAccountDataFragment__your_account_data">Los datos de tu cuenta</string>
     <!-- Explanation of account data the user can request. %1$s is replaced with Learn more with a link -->
-    <string name="ExportAccountDataFragment__export_explanation">Exporta un informe de los datos de tu cuenta de Signal. Este informe no incluye ningún mensaje o archivo multimedia. %1$s</string>
     <!-- Learn more link to more information about requesting account data -->
     <string name="ExportAccountDataFragment__learn_more">Saber más</string>
     <!-- Button action to export the report data to another app (e.g. email) -->
@@ -5920,7 +5886,6 @@
     <!-- Story info header received heading -->
     <string name="StoryInfoHeader__received">Recibidos</string>
     <!-- Story info header file size heading -->
-    <string name="StoryInfoHeader__file_size">Tamaño de archivo</string>
     <!-- Story info "Sent to" header -->
     <!-- Story info "Sent from" header -->
     <!-- Story info "Failed" header -->

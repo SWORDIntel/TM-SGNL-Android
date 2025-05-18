@@ -72,7 +72,6 @@
         android:textColor="@color/signal_text_secondary"
         app:layout_constraintTop_toBottomOf="@id/proxy_sheet_details_container"/>
 
-    <org.tm.archive.util.views.CircularProgressMaterialButton
         android:id="@+id/proxy_sheet_use_proxy"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -87,7 +86,6 @@
         app:layout_constraintVertical_bias="0"
         app:circularProgressMaterialButton__label="@string/ProxyBottomSheetFragment_use_proxy" />
 
-    <org.tm.archive.util.views.CircularProgressMaterialButton
         android:id="@+id/proxy_sheet_cancel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

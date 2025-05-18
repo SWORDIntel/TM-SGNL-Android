@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.tm.archive.util.views.DarkOverflowToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/signal_m3_toolbar_height"
@@ -19,7 +18,6 @@
         app:title="@string/CreditCardFragment__credit_or_debit_card"
         app:titleTextAppearance="@style/Signal.Text.TitleLarge" />
 
-    <org.tm.archive.util.views.LearnMoreTextView
         android:id="@+id/description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

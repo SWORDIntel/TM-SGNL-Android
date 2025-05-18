@@ -23,7 +23,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
 
-        <org.tm.archive.avatar.view.AvatarView
             android:id="@+id/rbs_recipient_avatar"
             android:layout_width="80dp"
             android:layout_height="80dp"
@@ -34,7 +33,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/handle" />
 
-        <org.tm.archive.badges.BadgeImageView
             android:id="@+id/rbs_badge"
             android:layout_width="36dp"
             android:layout_height="36dp"
@@ -56,7 +54,6 @@
             app:layout_constraintTop_toTopOf="@+id/rbs_recipient_avatar"
             tools:visibility="visible" />
 
-        <org.tm.archive.components.emoji.EmojiTextView
             android:id="@+id/rbs_full_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -72,7 +69,6 @@
             app:layout_constraintTop_toBottomOf="@id/rbs_recipient_avatar"
             tools:text="Gwen Stacy" />
 
-        <org.tm.archive.components.emoji.EmojiTextView
             android:id="@+id/rbs_about"
             style="@style/Signal.Text.BodyLarge"
             android:layout_width="match_parent"

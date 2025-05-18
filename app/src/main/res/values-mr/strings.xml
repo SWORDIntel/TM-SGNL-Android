@@ -588,7 +588,6 @@
         <item quantity="one">निवडलेला चॅट हटवत आहे…</item>
         <item quantity="other">निवडलेले चॅट्स हटवत आहे…</item>
     </plurals>
-    <plurals name="ConversationListFragment_conversations_archived">
         <item quantity="one">चॅट आर्काईव्ह केला</item>
         <item quantity="other">%1$d चॅट्स आर्काईव्ह केले</item>
     </plurals>
@@ -610,8 +609,6 @@
     <string name="ConversationListFragment_mute">म्यूट करा</string>
     <string name="ConversationListFragment_unmute">अनम्यूट करा</string>
     <string name="ConversationListFragment_select">निवडा</string>
-    <string name="ConversationListFragment_archive">आर्काइव्ह</string>
-    <string name="ConversationListFragment_unarchive">अनआर्काईव्ह</string>
     <string name="ConversationListFragment_delete">हटवा</string>
     <string name="ConversationListFragment_select_all">सर्व निवडा</string>
     <plurals name="ConversationListFragment_s_selected">
@@ -632,7 +629,6 @@
     <string name="ConversationListItem_key_exchange_message">की विनिमय संदेश</string>
 
     <!-- ConversationListItemAction -->
-    <string name="ConversationListItemAction_archived_conversations_d">आर्काईव्ह केलेले (%1$d) चॅट्स</string>
 
     <!-- ConversationTitleView -->
     <string name="ConversationTitleView_verified">सत्यापित</string>
@@ -2999,7 +2995,6 @@
     <string name="AndroidManifest__message_details">संदेश तपशील</string>
     <string name="AndroidManifest__linked_devices">लिंक केलेले डिव्हाईस</string>
     <string name="AndroidManifest__invite_friends">मित्रांना आमंत्रित करा</string>
-    <string name="AndroidManifest_archived_conversations">आर्काईव्ह केलेले चॅट्स</string>
 
     <!-- HelpFragment -->
     <string name="HelpFragment__have_you_read_our_faq_yet">आपण आतापर्यंत आमचे वारंवार विचारले जाणारे प्रश्न वाचले आहेत?</string>
@@ -3100,10 +3095,6 @@
     <string name="preferences__sms_mms">SMS आणि MMS</string>
     <string name="preferences__pref_use_address_book_photos">अॅड्रेस बुक फोटो वापरा</string>
     <string name="preferences__display_contact_photos_from_your_address_book_if_available">उपलब्ध असल्यास आपल्या अॅड्रेस बुकमधून संपर्क फोटो दाखवा</string>
-    <!-- Preference menu item title for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__pref_keep_muted_chats_archived">मूक केलेले चॅट्स संग्रहित करून ठेवा</string>
-    <!-- Preference menu item description for a toggle switch for preserving the archived state of muted chats. -->
-    <string name="preferences__muted_chats_that_are_archived_will_remain_archived">नवीन संदेश येतील तेव्हा संग्रहित केलेले मूक चॅट्स संग्रहित केलेलेच राहतील.</string>
     <string name="preferences__generate_link_previews">लिंक पुनरावलोकन उत्पन्न करा</string>
     <string name="preferences__retrieve_link_previews_from_websites_for_messages">तुम्ही पाठवलेल्या संदेशांसाठी थेट कोणत्याही वेबसाइटवरून लिंक पूर्वावलोकने प्राप्त करू शकता.</string>
     <string name="preferences__change_passphrase">पासफ्रेझ बदला</string>
@@ -3610,7 +3601,6 @@
 
     <!-- conversation_list_item_view -->
     <string name="conversation_list_item_view__contact_photo_image">संपर्क फोटो चित्र</string>
-    <string name="conversation_list_item_view__archived">आर्काईव्ह केले</string>
 
 
     <!-- conversation_list_fragment -->

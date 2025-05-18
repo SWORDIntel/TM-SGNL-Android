@@ -9,7 +9,6 @@
     android:paddingStart="@dimen/dsl_settings_gutter"
     android:paddingEnd="@dimen/dsl_settings_gutter">
 
-    <org.tm.archive.avatar.view.AvatarView
         android:id="@+id/avatar"
         android:layout_width="48dp"
         android:layout_height="48dp"
@@ -17,7 +16,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.tm.archive.badges.BadgeImageView
         android:id="@+id/badge"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -42,7 +40,6 @@
         app:tint="@color/signal_colorBackground"
         app:srcCompat="@drawable/symbol_plus_compact_16" />
 
-    <org.tm.archive.components.emoji.EmojiTextView
         android:id="@+id/sender"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

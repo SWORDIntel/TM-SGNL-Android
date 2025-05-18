@@ -18,7 +18,6 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintEnd_toStartOf="@id/edit_proxy_switch"/>
 
-  <org.tm.archive.util.views.LearnMoreTextView
       android:id="@+id/edit_proxy_switch_title_description"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
@@ -85,7 +84,6 @@
       app:layout_constraintTop_toBottomOf="@id/edit_proxy_status"
       app:layout_constraintStart_toStartOf="parent" />
 
-  <org.tm.archive.util.views.CircularProgressMaterialButton
       android:id="@+id/edit_proxy_save"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
